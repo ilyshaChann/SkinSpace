@@ -1,0 +1,240 @@
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+.transactions_main {
+    background: rgba(44, 47, 53, 0.85);
+}
+.transactions_sub_cardsMan {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.transactions_sub_cardsCase {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.transactions_sub_cardsCase_mobile {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.userProfile_soloItem {
+    background: rgb(80,84,90);
+    background: radial-gradient(circle, rgba(80,84,90,1) 0%, rgba(51,53,57,1) 60%);
+}
+.popUp_card_product_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.buy_order_card_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.popUp_card_product::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -1px;
+    border-top: 20px solid black;
+    border-top-color: #54565b;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.popUp_card_product::after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 0px;
+    border-top: 19px solid black;
+    border-top-color: #292c32;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+}
+
+@media (max-width: 1840px) {
+    .userProfile_body_leftBlock {
+        width: 42%;
+    }
+}
+
+@media (max-width: 1809px) {
+    .transactions_main_filterBlock {
+        display: none;
+    }
+    .transactions_main_block {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .transactions_main {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 1810px) {
+    .filter_icon_desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 1680px) {
+    .userProfile_body_leftBlock {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1510px) {
+    .userProfile_body_leftBlock {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1410px) {
+    .userProfile_body_leftBlock {
+        width: 65%;
+    }
+    .userProfile_items {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .userProfile_soloItem {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .userProfile_body {
+        flex-wrap: wrap;
+    }
+    .userProfile_rightBlock {
+        margin-left: 0px;
+        margin-top: -18px;
+    }
+    .userProfile_body_leftBlock {
+        width: 100%;
+        justify-content: center;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 55px;
+    }
+    .userProfile_items {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 914px) {
+    .transactions_main_block_filter {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .transactions_main_block_filter {
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .transactions_main_block_filter_text {
+        font-size: 10px;
+    }
+    .transactions_main_block_filterGame {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 8px;
+    }
+    .transactions_main_block_filterGame_text {
+        font-size: 10px;
+    }
+    .transactions_main {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    .userProfile_item {
+        display: none;
+    }
+}
+
+@media (max-width: 599px) {
+    .userProfile_items {
+        display: none;
+    }
+}
+
+@media (max-width: 585px) {
+    .mobile_sub_footer_items_exchange {
+        margin-top: 50px;
+    }
+    .transactions_main_block_searchInput {
+        width: 100%;
+    }
+}
+
+@media (max-width: 512px) {
+    .userProfile_history_rightBlock {
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 485px) {
+    .transactions_main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .transactions_main_basicText {
+        text-align: center;
+    }
+    .transactions_main_block_searchInput {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .search {
+        width: 16px;
+        height: 16px;
+    }
+    .transactions_main_block_searchInput::placeholder {
+        font-size: 12px;
+    }
+    .transactions_pagination {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .userProfile {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .userProfile_body_leftBlock {
+        padding-top: 20px;
+        padding-bottom: 35px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .userProfile_rightBlock {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 147px;
+    }
+    .userProfile_item {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+}
+@media (max-width: 456px) {
+    .transactions_main_block_filter {
+        margin-left: auto;
+    }
+    .pagintaion_userPage_text_mobile {
+        max-width: 150px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
