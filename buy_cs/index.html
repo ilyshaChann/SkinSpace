@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+    <!-- Везжающая менюшка на мобилках -->
+
+    <div class="dropdowm_menu">
+        <img src="img/cross_dropdown.svg" class="dropdowm_menu_cross" alt="крестик">
+        <ul class="dropdowm_menu_items">
+            <li class="dropdowm_menu_sub_itemsWhite">Обмен</li>
+            <li class="dropdowm_menu_sub_itemsLemony">Купить</li>
+            <li class="dropdowm_menu_sub_itemsWhite">Продать</li>
+            <li class="dropdowm_menu_sub_itemsWhite">FAQ</li>
+        </ul>            
+    </div>
+
+    <!-- Везжающая менюшка на мобилках -->
+
+    <header class="header">
+        <nav class="nav">
+            <div class="sub_nav">
+                <div class="sub_nav_burger">
+                    <img src="img/nav_burger.svg" class="sub_nav_burger_svg" alt="бургер меню">                    
+                </div>
+                <img src="img/fire_logo.png" class="img_logo" alt="лого">
+                <h2 class="text_logo">SkinSpace</h2>
+            </div>
+            <div class="menu_items">
+                <span class="sub_menu_items">Обмен</span>
+                <div class="sub_menu_items_custom">
+                    <span class="sub_menu_items_customText">Купить</span>
+                </div>
+                <span class="sub_menu_items">Продать</span>
+                <span class="sub_menu_items">FAQ</span>
+            </div>
+            <div class="language_balance_account">
+                <div class="language">
+                    <img src="img/russia.svg" class="language_flag" alt="флажок России">
+                    <img src="img/language_arrow.svg" class="language_arrow" alt="стрелочка">
+                </div>
+                <div class="balance">
+                    <div class="sub_balance_desktop">
+                        <span class="balance_money">₽ 150.20</span>
+                        <img src="img/balance_plus.svg" class="balance_plus" alt="плюсик">  
+                    </div>      
+                    <div class="sub_balance_mobile">
+                        <img src="img/steam_logo.svg" class="sub_balance_mobile_steamSvg" alt="стим">
+                        <span class="balance_money_mobile">ВОЙТИ</span>
+                    </div>                
+                </div>
+                <div class="account">
+                    <img src="img/man.png" class="account_man" alt="Чел с шапки">
+                    <img src="img/account_arrow.svg" class="account_arrow" alt="стрелочка">    
+                </div>
+            </div>
+        </nav>
+
+        <!-- Выпадающая менюшка шапки -->
+
+        <div class="mini_dropdown">
+            <ul>
+                <li class="replenish_the_balance">
+                    Пополнить баланс
+                </li>
+                <li class="withdraw_from_the_balance">
+                    Вывести с баланса
+                </li>
+                <li class="personal_area">
+                    Личный кабинет
+                </li>
+                <li class="exit">
+                    Выйти
+                </li>
+            </ul>
+        </div>
+
+        <!-- Выпадающая менюшка шапки -->
+
+        <!-- Выпадающий выбор языков шапки -->
+        <div class="mini_dropdown_language">
+            <div class="mini_dropdown_languageRu">
+                <img src="img/russia.svg" class="mini_dropdown_language_miniRu" alt="ру флаг">
+                <h2 class="mini_dropdown_language_text">RU</h2>
+            </div>
+            <div class="mini_dropdown_languageEn">
+                <img src="img/english.svg" class="mini_dropdown_language_miniEn" alt="инглиш флаг">
+                <h2 class="mini_dropdown_language_text">EN</h2>
+            </div>
+        </div>
+        <!-- Выпадающий выбор языков шапки -->
+
+        <!-- Фильтры в транзакциях -->
+        <div class="filter_status">
+            <ul>
+                <li class="filter_statusAll">
+                    Все
+                </li>
+                <li class="filter_status_subItems">
+                    В ожидании
+                </li>
+                <li class="filter_status_subItems">
+                    Принято
+                </li>
+                <li class="filter_status_subItems">
+                    Отменено
+                </li>
+                <li class="filter_status_subItems">
+                    Возмещено
+                </li>
+                <li class="filter_status_subItems">
+                    Смешанный
+                </li>
+                <li class="filter_status_subItems">
+                    На продаже
+                </li>
+                <li class="filter_status_subItems">
+                    Продано
+                </li>
+                <li class="filter_status_subItems">
+                    Снят с продажи
+                </li>
+            </ul>
+        </div>
+
+        <div class="filter_type">
+            <ul>
+                <li class="filter_typeAll">
+                    Все
+                </li>
+                <li class="filter_type_subItems">
+                    Обмен
+                </li>
+                <li class="filter_type_subItems">
+                    Вывести
+                </li>
+                <li class="filter_type_subItems">
+                    Покупка
+                </li>
+                <li class="filter_type_subItems">
+                    Аукцион
+                </li>
+                <li class="filter_type_subItems">
+                    Пополнение
+                </li>
+                <li class="filter_type_subItems">
+                    Подписка
+                </li>
+                <li class="filter_type_subItems">
+                    Система
+                </li>
+                <li class="filter_type_subItems">
+                    Продажа
+                </li>
+            </ul>
+        </div>
+
+        <div class="filter_all">
+            <ul>
+                <li class="filter_firstAll">
+                    Все
+                </li>
+                <li class="filter_allCS">
+                    CS:GO
+                </li>
+                <li class="filter_allDota">
+                    Dota 2
+                </li>
+            </ul>
+        </div>
+        <!-- Фильтры в транакциях -->
+    </header>
+
+    <!-- Фильтр игр: CS:GO. Мобильная версия -->
+    <div class="filter_gameCS_mobile">
+        <span class="filter_gameCS_mobile_textWhite">CS:GO</span>
+        <span class="filter_gameCS_mobile_text">Dota 2</span>
+        <span class="filter_gameCS_mobile_text">Rust</span>
+        <img src="img/cross_popUp.svg" class="cross_popUp" alt="крестик">
+    </div>
+    <!-- Фильтр игр: CS:GO. Мобильная версия -->
+
+    <!-- Фильтр: Популярность. Мобильная версия -->
+    <div class="filter_popularity_mobile">
+        <span class="filter_popularity_mobile_textWhite">Популярность</span>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Цена</span>
+            <img src="img/ladder_top.svg" class="ladder_top_mobile" alt="лесенка">
+        </div>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Цена</span>
+            <img src="img/ladder_bottom.svg" class="ladder_bottom_mobile" alt="лесенка">
+        </div>
+        <span class="filter_popularity_mobile_text">Сначала новые</span>
+        <span class="filter_popularity_mobile_text">Сначала старые</span>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Float</span>
+            <img src="img/ladder_top.svg" class="ladder_top_mobile" alt="лесенка">
+        </div>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Float</span>
+            <img src="img/ladder_bottom.svg" class="ladder_bottom_mobile" alt="лесенка">
+        </div>
+        <img src="img/cross_popUp.svg" class="cross_popUp" alt="крестик">
+    </div>
+    <!-- Фильтр: Популярность. Мобильная версия -->
+
+    <!-- Фильтры. Мобильная версия -->
+    <div class="transactions_main_filterBlock_mobile">
+        <div class="transactions_main_filterBlock_mobile_mainText_block">
+            <h2 class="transactions_main_filterBlock_mainText_mobile">Фильтры</h2>
+            <img src="img/cross_popUp.svg" class="cross_popUp_filter" alt="крестик">
+        </div>
+        <div class="transactions_main_sub_filterBlock">
+            <span class="transactions_main_sub_filterBlock_priceText">Price</span>
+            <hr class="transactions_main_sub_filterBlock_line">
+        </div>
+        <div class="transactions_main_sub_filterBlock_minMax_block">
+            <div class="transactions_main_sub_filterBlock_min_block_mobile">
+                <span class="transactions_main_sub_filterBlock_min_blockText">Min</span>
+            </div>
+            <hr class="transactions_main_sub_filterBlock_minMax_priceLine">
+            <div class="transactions_main_sub_filterBlock_max_block_mobile">
+                <span class="transactions_main_sub_filterBlock_max_blockText">Max</span>
+            </div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_customSlider">
+            <div class="transactions_main_sub_filterBlock_sub_customSlider_circle"></div><div class="transactions_main_sub_filterBlock_sub_customSlider"></div><div class="transactions_main_sub_filterBlock_sub_customSlider_circle"></div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_similarFilters">
+            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Quality</span>
+                <hr class="transactions_main_sub_filterBlock_line">
+            </div>
+            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_mobile">
+                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                <img src="img/arrow.svg" class="arrow" alt="стрелочка">
+            </div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_similarFilters">
+            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Agent quality</span>
+                <hr class="transactions_main_sub_filterBlock_line">
+            </div>
+            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_mobile">
+                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                <img src="img/arrow.svg" class="arrow" alt="стрелочка">
+            </div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_similarFilters">
+            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Category</span>
+                <hr class="transactions_main_sub_filterBlock_line">
+            </div>
+            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_mobile">
+                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                <img src="img/arrow.svg" class="arrow" alt="стрелочка">
+            </div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_similarFilters">
+            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Exterior</span>
+                <hr class="transactions_main_sub_filterBlock_line">
+            </div>
+            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_mobile">
+                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                <img src="img/arrow_bottom.svg" class="arrow" alt="стрелочка">
+            </div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_addFilter_mobile">
+            <ul>
+                <li class="transactions_main_sub_filterBlock_addFilter_itemWhite">All</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_item">Coverd</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_item">Classified</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_item">Contraband</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_item">All</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_item">All</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_item">All</li>
+                <li class="transactions_main_sub_filterBlock_addFilter_itemLast">All</li>
+            </ul>
+        </div>
+        <div class="transactions_main_sub_filterBlock_knifeBlock_mobile">
+            <div class="transactions_main_sub_filterBlock_add_knifeBlock">
+                <div class="transactions_main_sub_filterBlock_sub_knifeBlock">
+                    <img src="img/knife.png" class="knife" alt="ножик">
+                    <span class="transactions_main_sub_filterBlock_sub_knifeBlock_mainText">Knife</span>
+                </div>
+                <img src="img/arrow_bottom.svg" class="arrow" alt="стрелочка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_knifeBlock_cards_mobile">
+                <div class="transactions_main_sub_filterBlock_knifeBlock_frstCard_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_frstCard_text">
+                        Bowie
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Shadow
+                        daggers
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Shadow
+                        daggers
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Shadow
+                        daggers
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Bowie
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Bowie
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Bowie
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Bowie
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+                <div class="transactions_main_sub_filterBlock_knifeBlock_card_mobile">
+                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                        Butterfly 
+                        knife
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/pistol.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Pistols</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/rifle.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Rifles</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/smg.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">SMGs</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/shotgun.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Shotguns</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/machine_gun.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Machineguns</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/gloves.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Gloves</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/sticker.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Stickers</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/agent.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Agent</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+            <div class="transactions_main_sub_filterBlock_gunCard_mobile">
+                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                    <img src="img/other.png" class="gun" alt="оружие">
+                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Others</span>
+                </div>
+                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+            </div>
+        </div>
+        <div class="transactions_main_sub_filterBlock_customButtons">
+            <div class="transactions_main_sub_filterBlock_customButton_frstMobile">
+                <a href="#" class="transactions_main_sub_filterBlock_button_frst">применить</a>
+            </div>
+            <div class="transactions_main_sub_filterBlock_customButton_scndMobile">
+                <a href="#" class="transactions_main_sub_filterBlock_button_scnd">сбросить</a>
+            </div>
+        </div>
+    </div>
+    <!-- Фильтры. Мобильная версия -->
+
+    <main>
+        <section>
+            <h2 class="buy_skins">Купить скины</h2>
+            <div class="transactions_all">
+                <div class="transactions_main">
+                    <div class="transactions_main_filterBlock">
+                        <h2 class="transactions_main_filterBlock_mainText">Фильтры</h2>
+                        <div class="transactions_main_sub_filterBlock">
+                            <span class="transactions_main_sub_filterBlock_priceText">Price</span>
+                            <hr class="transactions_main_sub_filterBlock_line">
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_minMax_block">
+                            <div class="transactions_main_sub_filterBlock_min_block">
+                                <span class="transactions_main_sub_filterBlock_min_blockText">Min</span>
+                            </div>
+                            <hr class="transactions_main_sub_filterBlock_minMax_priceLine">
+                            <div class="transactions_main_sub_filterBlock_max_block">
+                                <span class="transactions_main_sub_filterBlock_max_blockText">Max</span>
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_customSlider">
+                            <div class="transactions_main_sub_filterBlock_sub_customSlider_circle"></div><div class="transactions_main_sub_filterBlock_sub_customSlider"></div><div class="transactions_main_sub_filterBlock_sub_customSlider_circle"></div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_similarFilters">
+                            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Quality</span>
+                                <hr class="transactions_main_sub_filterBlock_line">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелочка">
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_similarFilters">
+                            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Agent quality</span>
+                                <hr class="transactions_main_sub_filterBlock_line">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелочка">
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_similarFilters">
+                            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Category</span>
+                                <hr class="transactions_main_sub_filterBlock_line">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелочка">
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_similarFilters">
+                            <div class="transactions_main_sub_filterBlock_sub_similarFilters">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_mainText">Exterior</span>
+                                <hr class="transactions_main_sub_filterBlock_line">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_similarFilters_kindOfInput">
+                                <span class="transactions_main_sub_filterBlock_similarFilters_kindOfInput_text">All</span>
+                                <img src="img/arrow_bottom.svg" class="arrow" alt="стрелочка">
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_addFilter">
+                            <ul>
+                                <li class="transactions_main_sub_filterBlock_addFilter_itemWhite">All</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_item">Coverd</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_item">Classified</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_item">Contraband</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_item">All</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_item">All</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_item">All</li>
+                                <li class="transactions_main_sub_filterBlock_addFilter_itemLast">All</li>
+                            </ul>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_knifeBlock">
+                            <div class="transactions_main_sub_filterBlock_add_knifeBlock">
+                                <div class="transactions_main_sub_filterBlock_sub_knifeBlock">
+                                    <img src="img/knife.png" class="knife" alt="ножик">
+                                    <span class="transactions_main_sub_filterBlock_sub_knifeBlock_mainText">Knife</span>
+                                </div>
+                                <img src="img/arrow_bottom.svg" class="arrow" alt="стрелочка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_knifeBlock_cards">
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_frstCard">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_frstCard_text">
+                                        Bowie
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Butterfly 
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Shadow
+                                        daggers
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Shadow
+                                        daggers
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Butterfly 
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Butterfly 
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Butterfly 
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Butterfly 
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Shadow
+                                        daggers
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Bowie
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Bowie
+                                        knife
+                                    </span>
+                                </div>
+                                <div class="transactions_main_sub_filterBlock_knifeBlock_card">
+                                    <span class="transactions_main_sub_filterBlock_knifeBlock_card_text">
+                                        Bowie
+                                        knife
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_gunsBlock">
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/pistol.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Pistols</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/rifle.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Rifles</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/smg.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">SMGs</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/shotgun.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Shotguns</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/machine_gun.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Machineguns</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/gloves.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Gloves</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/sticker.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Stickers</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/agent.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Agent</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                            <div class="transactions_main_sub_filterBlock_gunCard">
+                                <div class="transactions_main_sub_filterBlock_sub_gunCard">
+                                    <img src="img/other.png" class="gun" alt="оружие">
+                                    <span class="transactions_main_sub_filterBlock_sub_gunCard_mainText">Others</span>
+                                </div>
+                                <img src="img/arrow.svg" class="arrow" alt="стрелчка">
+                            </div>
+                        </div>
+                        <div class="transactions_main_sub_filterBlock_customButton">
+                            <a href="#" class="transactions_main_sub_filterBlock_button">сбросить фильтры</a>
+                        </div>
+                    </div>
+                    <div class="transactions_main_block">
+                        <div class="transactions_main_block_searchfilter">
+                            <div class="transactions_main_block_sub_searchfilter">
+                                <img src="img/preloader.svg" class="preloader" alt="загрузка">
+                                <div class="transactions_main_block_filterGame_addFilter">
+                                   <div class="transactions_main_block_filterGame">
+                                        <span class="transactions_main_block_filterGame_text">CS:GO</span>
+                                        <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                                    </div> 
+                                     <!-- Фильтр игр: CS:GO -->
+                                    <div class="filter_gameCS">
+                                        <span class="filter_gameCS_textWhite">CS:GO</span>
+                                        <span class="filter_gameCS_text">Dota 2</span>
+                                        <span class="filter_gameCS_text">Rust</span>
+                                    </div>
+                                    <!-- Фильтр игр: CS:GO -->
+                                </div>
+                                
+                                <div class="transactions_main_block_search">
+                                    <img src="img/search.svg" class="search" alt="лупа">
+                                    <input type="text" class="transactions_main_block_searchInput" placeholder="Поиск по скинам">
+                                </div>
+                            </div>
+                            <div class="transactions_main_block_filter">
+                                <img src="img/filter_icon.png" class="filter_icon_desktop" alt="настройки">
+                                <div class="transactions_main_block_sub_filter_addFilter">
+                                    <div class="transactions_main_block_sub_filter">
+                                        <span class="transactions_main_block_filter_text">Популярность</span>
+                                        <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                                    </div>
+                                    <!-- Фильтр: Популярность -->
+                                    <div class="filter_popularity">
+                                        <span class="filter_popularity_textWhite">Популярность</span>
+                                        <div class="filter_popularity_textBlock">
+                                            <span class="filter_popularity_text">Цена</span>
+                                            <img src="img/ladder_top.svg" class="ladder_top" alt="лесенка">
+                                        </div>
+                                        <div class="filter_popularity_textBlock">
+                                            <span class="filter_popularity_text">Цена</span>
+                                            <img src="img/ladder_bottom.svg" class="ladder_bottom" alt="лесенка">
+                                        </div>
+                                        <span class="filter_popularity_text">Сначала новые</span>
+                                        <span class="filter_popularity_text">Сначала старые</span>
+                                        <div class="filter_popularity_textBlock">
+                                            <span class="filter_popularity_text">Float</span>
+                                            <img src="img/ladder_top.svg" class="ladder_top" alt="лесенка">
+                                        </div>
+                                        <div class="filter_popularity_textBlock">
+                                            <span class="filter_popularity_text">Float</span>
+                                            <img src="img/ladder_bottom.svg" class="ladder_bottom" alt="лесенка">
+                                        </div>
+                                    </div>
+                                    <!-- Фильтр: Популярность -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transactions_main_block_searchfilter_mobile">
+                            <div class="transactions_main_block_sub_searchfilter">
+                                <img src="img/preloader.svg" class="preloader_mobile" alt="загрузка">
+                                <div class="transactions_main_block_filterGame_mobile">
+                                    <span class="transactions_main_block_filterGame_text">CS:GO</span>
+                                    <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                                </div>
+                                <div class="transactions_main_block_filter_mobile">
+                                    <span class="transactions_main_block_filter_text">Популярность</span>
+                                    <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                                </div>
+                            </div>
+                            <div class="transactions_main_block_sub_searchfilter_rightPart">
+                                <img src="img/loupe.svg" class="loupe" alt="лупа">
+                                <img src="img/filter_icon.png" class="filter_icon" alt="настройки">
+                            </div>
+                        </div>
+                        <div class="transactions_cards">
+                            <div class="transactions_sub_cards_mobile">
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/dota_man_mobile.png" class="dota_man_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/dota_man_mobile.png" class="dota_man_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/dota_man_mobile.png" class="dota_man_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/dota_man_mobile.png" class="dota_man_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/case_mobile.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase_mobile">
+                                    <img src="img/dota_man_mobile.png" class="dota_man_mobile" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar_mobile" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description_mobile">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText_mobile">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description_mobile">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum_mobile">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity_mobile">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="transactions_sub_cards_desktop">
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/loader_mobile.svg" class="loader_mobile" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsMan">
+                                    <img src="img/dota_man.png" class="transactions_dotaMan" alt="чел">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsMan_description">
+                                        <h3 class="transactions_sub_cardsMan_description_mainText">Scavenging Guttleslug</h3>
+                                        <div class="transactions_sub_cardsMan_sub_description">
+                                            <span class="transactions_sub_cardsMan_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsMan_sub_description_quantity">100
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transactions_sub_cardsCase">
+                                    <img src="img/case.png" class="transactions_case" alt="кейс">
+                                    <img src="img/blue_star_cards.svg" class="transactions_blueStar" alt="звездочка">
+                                    <div class="transactions_sub_cardsCase_description">
+                                        <h3 class="transactions_sub_cardsCase_description_mainText">Scavenging Guttleslug
+                                            Scavenging Guttleslu...</h3>
+                                        <div class="transactions_sub_cardsCase_sub_description">
+                                            <span class="transactions_sub_cardsCase_sub_description_sum">₽ 150.20</span>
+                                            <span class="transactions_sub_cardsCase_sub_description_quantity">1000+
+                                                в продаже</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transactions_pagination">
+                            <img src="img/pagintation_arrow_gray.svg" class="pagintaion_arrow_gray" alt="стрелочка влево">
+                            <div class="transactions_pagination_customBlock">
+                                <span class="transactions_pagination_customText">1</span>
+                            </div>
+                            <span class="transactions_pagination_text">2</span>
+                            <span class="transactions_pagination_text">3</span>
+                            <span class="transactions_pagination_text">4</span>
+                            <span class="transactions_pagination_text">5</span>
+                            <span class="transactions_pagination_text">6</span>
+                            <span class="transactions_pagination_text">...</span>
+                            <span class="transactions_pagination_text">100</span>
+                            <img src="img/pagination_arrow_white.svg" class="pagination_arrow_white" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="sub_footer">
+            <div>
+                <h2 class="sub_footer_ST_text">SkinsTrade</h2>
+            </div>
+            <div class="contact">
+                <span class="contact_span">Связаться с нами:</span>
+                <div class="sub_contact">
+                    <img src="img/contact_1.svg" class="sub_contact_svg_1" alt="тг">    
+                    <img src="img/contact_2.svg" class="sub_contact_svg_2" alt="вк">
+                </div>
+            </div>
+            <div class="mobile_sub_footer_items_exchange">
+                <div class="mobile_sub_footer_items_exchange_1">
+                    <span class="sub_footer_items_exchange_first">Обмен</span>
+                    <span class="sub_footer_items_exchange">Купить</span>
+                    <span class="sub_footer_items_exchange">Продать</span>
+                    <span class="sub_footer_items_exchange">FAQ</span>
+                </div>
+                <div class="mobile_sub_footer_items_exchange_2">
+                    <span class="sub_footer_items_exchange_first">Контакты</span>
+                    <span class="sub_footer_items_exchange">Гарантии</span>
+                    <span class="sub_footer_items_exchange">Как это работает</span>
+                    <span class="sub_footer_items_exchange">Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
