@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+    <!-- Везжающая менюшка на мобилках -->
+
+    <div class="dropdowm_menu">
+        <img src="img/cross_dropdown.svg" class="dropdowm_menu_cross" alt="крестик">
+        <ul class="dropdowm_menu_items">
+            <li class="dropdowm_menu_sub_itemsWhite">Обмен</li>
+            <li class="dropdowm_menu_sub_itemsLemony">Купить</li>
+            <li class="dropdowm_menu_sub_itemsWhite">Продать</li>
+            <li class="dropdowm_menu_sub_itemsWhite">FAQ</li>
+        </ul>            
+    </div>
+
+    <!-- Везжающая менюшка на мобилках -->
+
+    <header class="header">
+        <nav class="nav">
+            <div class="sub_nav">
+                <div class="sub_nav_burger">
+                    <img src="img/nav_burger.svg" class="sub_nav_burger_svg" alt="бургер меню">                    
+                </div>
+                <img src="img/fire_logo.png" class="img_logo" alt="лого">
+                <h2 class="text_logo">SkinSpace</h2>
+            </div>
+            <div class="menu_items">
+                <span class="sub_menu_items">Обмен</span>
+                <span class="sub_menu_items">Купить</span>
+                <div class="sub_menu_items_custom">
+                    <span class="sub_menu_items_customText">Продать</span>
+                </div>
+                <span class="sub_menu_items">FAQ</span>
+            </div>
+            <div class="language_balance_account">
+                <div class="language">
+                    <img src="img/russia.svg" class="language_flag" alt="флажок России">
+                    <img src="img/language_arrow.svg" class="language_arrow" alt="стрелочка">
+                </div>
+                <div class="balance">
+                    <div class="sub_balance_desktop">
+                        <span class="balance_money">₽ 150.20</span>
+                    </div>                   
+                </div>
+                <div class="account">
+                    <img src="img/man.png" class="account_man" alt="Чел с шапки">
+                    <img src="img/account_arrow.svg" class="account_arrow" alt="стрелочка">    
+                </div>
+            </div>
+        </nav>
+
+        <!-- Выпадающая менюшка шапки -->
+
+        <div class="mini_dropdown">
+            <ul class="mini_dropdown_items">
+                <li class="replenish_the_balance">
+                    Пополнить баланс
+                </li>
+                <li class="withdraw_from_the_balance">
+                    Вывести с баланса
+                </li>
+                <li class="personal_area">
+                    Личный кабинет
+                </li>
+                <li class="exit">
+                    Выйти
+                </li>
+            </ul>
+        </div>
+
+        <!-- Выпадающая менюшка шапки -->
+
+        <!-- Выпадающий выбор языков шапки -->
+
+        <div class="mini_dropdown_language">
+            <div class="mini_dropdown_languageRu">
+                <img src="img/russia.svg" class="mini_dropdown_language_miniRu" alt="ру флаг">
+                <h2 class="mini_dropdown_language_text">RU</h2>
+            </div>
+            <div class="mini_dropdown_languageEn">
+                <img src="img/english.svg" class="mini_dropdown_language_miniEn" alt="инглиш флаг">
+                <h2 class="mini_dropdown_language_text">EN</h2>
+            </div>
+        </div>
+
+        <!-- Выпадающий выбор языков шапки -->
+
+    </header>
+
+   <!-- Фильтр игр: CS:GO. Мобильная версия -->
+
+    <div class="filter_gameCS_mobile">
+        <span class="filter_gameCS_mobile_textWhite">CS:GO</span>
+        <span class="filter_gameCS_mobile_text">Dota 2</span>
+        <span class="filter_gameCS_mobile_text">Rust</span>
+        <img src="img/cross_popUp.svg" class="cross_popUp" alt="крестик">
+    </div>
+
+    <!-- Фильтр игр: CS:GO. Мобильная версия -->
+    
+    <!-- Фильтр предметов. Мобильная версия -->
+
+    <div class="filter_items_mobile">
+        <span class="filter_gameCS_mobile_textWhite">Все предметы</span>
+        <span class="filter_gameCS_mobile_text">На продаже</span>
+        <span class="filter_gameCS_mobile_text">Не на продаже</span>
+        <img src="img/cross_popUp.svg" class="cross_popUp" alt="крестик">
+    </div>
+
+    <!-- Фильтр предметов. Мобильная версия -->
+
+    <!-- Фильтр цены. Мобильная версия -->
+
+    <div class="filter_price_mobile">
+        <div class="filter_sub_price_mobile">
+            <span class="filter_gameCS_mobile_textWhite">Цена</span>
+            <img src="img/ladder.svg" class="ladder_filter" alt="лесенка">
+        </div>
+        <div class="filter_sub_price_mobile">
+            <span class="filter_gameCS_mobile_text">Float</span>
+            <img src="img/ladder_gray.svg" class="ladder_gray" alt="">
+        </div>
+        <img src="img/cross_popUp.svg" class="cross_popUp" alt="крестик">
+    </div>
+
+    <!-- Фильтр цены. Мобильная версия -->
+
+    <!-- Pop-up: Успешно выставлено на продажу -->
+
+    <div class="popUp_success">
+        <img src="img/success.svg" class="success" alt="успешно">
+        <h2 class="popUp_success_mainText">
+            Ваши товары были успешно
+            выставлены на продажу!
+        </h2>
+        <img src="img/cross_success.svg" class="popUp_success_cross" alt="крестик">
+    </div>
+
+    <!-- Pop-up: Успешно выставлено на продажу -->
+
+    <main>
+        <section>
+            <div class="sell_skins_mobileBlock_myInventoryBlock">
+                <h1 class="sell_skins_mobileBlock_mainText">Продать скины</h1>
+                <div class="sell_skins_mobileBlock_myInventory">
+                    <span class="sell_skins_mobileBlock_myInventory_text">Мой инвентарь</span>
+                </div>
+                <span class="sell_skins_mobileBlock_subText">На продажу</span>
+            </div>
+            <div class="sell_skins_mobileBlock_sellSkinsBlock">
+                <h1 class="sell_skins_mobileBlock_mainText">Продать скины</h1>
+                <span class="sell_skins_mobileBlock_sellSkins_myInventory_text">Мой инвентарь</span>
+                <div class="sell_skins_mobileBlock_sellSkinsBlock_custom">
+                    <span class="sell_skins_mobileBlock_sellSkins_subText">На продажу</span>
+                </div>
+            </div>
+            <div class="sell_erorr">
+                <div class="sell_erorr_leftBlock">
+                    <div class="sell_erorr_leftBlock_header_mobile">
+                        <div class="sell_erorr_leftBlock_headerPartLeft">
+                            <div class="sell_erorr_leftBlock_sub_headerPart">
+                                <div class="sell_erorr_leftBlock_sub_headerPart_filterDota_mobile">
+                                    <span class="sell_erorr_leftBlock_sub_headerPart_filterDota_text_mobile">CS:GO</span>
+                                    <img src="img/arrow_down.svg" class="arrow_filter_mobile" alt="стрелочка">
+                                </div>
+                                <div class="sell_erorr_leftBlock_sub_headerPart_filterItems_mobile">
+                                    <span class="sell_erorr_leftBlock_sub_headerPart_filterItems_text_mobile">Все предметы</span>
+                                    <img src="img/arrow_down.svg" class="arrow_filter_mobile" alt="стрелочка">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sell_erorr_leftBlock_headerPartRight_mobile">
+                            <div class="sell_erorr_leftBlock_sub_headerPartRight">
+                                <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice_filter_mobile">
+                                    <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice_mobile">
+                                        <span class="sell_erorr_leftBlock_sub_headerPart_filterPrice_text_mobile">Цена</span>
+                                        <img src="img/ladder.svg" class="ladder_mobile" alt="лесенка">
+                                        <img src="img/arrow_down.svg" class="arrow_filter_mobile" alt="стрелочка">
+                                    </div>
+                                    <img src="img/search_white.svg" class="search_white" alt="поиск">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sell_erorr_leftBlock_header">
+                        <div class="sell_erorr_leftBlock_headerPartLeft">
+                            <div class="sell_erorr_leftBlock_sub_headerPart">
+                                <img src="img/prereloader.png" class="preloader" alt="загрузчик">
+                                <div class="sell_erorr_leftBlock_sub_headerPart_filterDota">
+                                    <span class="sell_erorr_leftBlock_sub_headerPart_filterDota_text">Dota 2</span>
+                                    <img src="img/arrow_down.svg" class="arrow_filter" alt="стрелочка">
+                                </div>
+                                <div class="sell_erorr_leftBlock_sub_headerPart_inputBlock">
+                                    <img src="img/search_input.svg" class="search_input" alt="лупа">
+                                    <input type="text" class="sell_erorr_leftBlock_sub_headerPart_input" placeholder="Поиск по скинам">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sell_erorr_leftBlock_headerPartRight">
+                            <div class="sell_erorr_leftBlock_sub_headerPartRight">
+                                <div class="sell_erorr_leftBlock_sub_headerPart_filterItems_filter">
+                                    <div class="sell_erorr_leftBlock_sub_headerPart_filterItems">
+                                        <span class="sell_erorr_leftBlock_sub_headerPart_filterItems_text">Все предметы</span>
+                                        <img src="img/arrow_down.svg" class="arrow_filter" alt="стрелочка">
+                                    </div>
+                                    <div class="sell_erorr_leftBlock_sub_headerPart_filterItems_filterBlock">
+                                        <span class="sell_erorr_leftBlock_sub_headerPart_filterItems_filterBlock_textActive">Все предметы</span>
+                                        <span class="sell_erorr_leftBlock_sub_headerPart_filterItems_filterBlock_text">На продаже</span>
+                                        <span class="sell_erorr_leftBlock_sub_headerPart_filterItems_filterBlock_text">Не на продаже</span>
+                                    </div>
+                                </div>
+                                <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice_filter">
+                                    <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice">
+                                        <span class="sell_erorr_leftBlock_sub_headerPart_filterPrice_text">Цена</span>
+                                        <img src="img/ladder.svg" class="ladder" alt="лесенка">
+                                        <img src="img/arrow_down.svg" class="arrow_filter" alt="стрелочка">
+                                    </div>
+                                    <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice_filterBlock">
+                                        <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice_sub_filterBlock">
+                                            <span class="sell_erorr_leftBlock_sub_headerPart_filterPrice_sub_filterBlock_textActive">
+                                                Цена
+                                            </span>
+                                            <img src="img/ladder.svg" class="ladder_filter" alt="лесенка">
+                                        </div>
+                                        <div class="sell_erorr_leftBlock_sub_headerPart_filterPrice_sub_filterBlock">
+                                            <span class="sell_erorr_leftBlock_sub_headerPart_filterPrice_sub_filterBlock_text">
+                                                Float
+                                            </span>
+                                            <img src="img/ladder_gray.svg" class="ladder_filterGray" alt="лесенка">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sell_leftBlock_cards">
+                        <div class="sell_leftBlock_sub_cards">
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                    <span class="sell_leftBlock_sub_soloCard_body_textTop">x 30</span>
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard_quantity">
+                                <div class="sell_leftBlock_sub_soloCard_quantityBlock">
+                                    <img src="img/minus.svg" class="sell_leftBlock_sub_soloCard_quantityBlock_minus" alt="минус">
+                                    <div class="sell_leftBlock_sub_soloCard_sub_quantityBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_quantityBlock_text">
+                                            10
+                                        </span>
+                                    </div>
+                                    <img src="img/plus.svg" class="sell_leftBlock_sub_soloCard_quantityBlock_plus" alt="плюс">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_sub_quantity">
+                                    <div class="sell_leftBlock_sub_soloCard_body">
+                                        <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                        <span class="sell_leftBlock_sub_soloCard_body_textTop">x 30</span>
+                                    </div>
+                                    <div class="sell_leftBlock_sub_soloCard_footer">
+                                        <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                            Scavenging Guttleslug
+                                            <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                                Scavenging Guttleslug
+                                            </div>
+                                        </h3>
+                                        <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                            <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                            <img src="img/plus_circle_yellow.svg" class="plus_circle" alt="кружочек">
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard_time">
+                                <div class="sell_leftBlock_sub_soloCard_timeBlock">
+                                    <img src="img/lock.svg" class="lock" alt="замок">
+                                    <h3 class="sell_leftBlock_sub_soloCard_timeBlock_text">
+                                        5 дней
+                                    </h3>
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_sub_quantity">
+                                    <div class="sell_leftBlock_sub_soloCard_body">
+                                        <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                    </div>
+                                    <div class="sell_leftBlock_sub_soloCard_footer">
+                                        <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                            Scavenging Guttleslug
+                                            <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                                Scavenging Guttleslug
+                                            </div>
+                                        </h3>
+                                        <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                            <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                            <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sell_leftBlock_cards_mobile">
+                        <div class="sell_leftBlock_sub_cards_mobile">
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                    <span class="sell_leftBlock_sub_soloCard_body_textTop_mobile">x 30</span>
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_soloCard_quantity_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_quantityBlock_mobile">
+                                    <img src="img/minus.svg" class="sell_leftBlock_sub_soloCard_quantityBlock_minus_mobile" alt="минус">
+                                    <div class="sell_leftBlock_sub_soloCard_sub_quantityBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_quantityBlock_text">
+                                            10
+                                        </span>
+                                    </div>
+                                    <img src="img/plus.svg" class="sell_leftBlock_sub_soloCard_quantityBlock_plus_mobile" alt="плюс">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_sub_quantity">
+                                    <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                        <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                    </div>
+                                    <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                        <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                            Scavenging Guttleslug
+                                            <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                                Scavenging Guttleslug
+                                            </div>
+                                        </h3>
+                                        <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                            <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                            <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_time_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_timeBlock_mobile">
+                                    <img src="img/lock.svg" class="lock_mobile" alt="замок">
+                                    <h3 class="sell_leftBlock_sub_soloCard_timeBlock_text_mobile">
+                                        5 дней
+                                    </h3>
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_sub_quantity">
+                                    <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                        <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                    </div>
+                                    <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                        <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                            Scavenging Guttleslug
+                                            <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                                Scavenging Guttleslug
+                                            </div>
+                                        </h3>
+                                        <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                            <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                            <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/plus_circle_yellow.svg" class="plus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/arrows_more.svg" class="arrows_more" alt="стрелочки">
+                <div class="sell_erorr_rightBlock">
+                    <div class="sell_erorr_rightBlock_header">
+                        <div class="sell_erorr_rightBlock_sub_headerPartLeft_text">
+                            <span class="sell_erorr_rightBlock_headerPartLeft_text">На продажу</span>
+                        </div>
+                        <div class="sell_erorr_rightBlock_headerPartRight">
+                            <span class="sell_erorr_rightBlock_headerPartRight_allText">Всего:</span>
+                            <span class="sell_erorr_rightBlock_headerPartRight_rubText">₽ 454545</span>
+                        </div>
+                    </div>
+                    <div class="sell_rightBlock_cards">
+                        <div class="sell_rightBlock_sub_cards">
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                    <span class="sell_leftBlock_sub_soloCard_body_textTop">x 10</span>
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_rightBlock_sub_soloCard">
+                                <div class="sell_leftBlock_sub_soloCard_body">
+                                    <img src="img/dota_man.png" class="sell_leftBlock_sub_soloCard_body_image" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text">₽ 150.20</span>
+                                        <img src="img/minus_circle.svg" class="minus_circle" alt="кружок">                                                                                      
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sell_rightBlock_cards_mobile">
+                        <div class="sell_rightBlock_sub_cards_mobile">
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="sell_leftBlock_sub_SoloCard_mobile">
+                                <div class="sell_leftBlock_sub_soloCard_body_mobile">
+                                    <img src="img/box_cs.png" class="sell_leftBlock_sub_soloCard_body_image_mobile" alt="чел">
+                                </div>
+                                <div class="sell_leftBlock_sub_soloCard_footer_mobile">
+                                    <h3 class="sell_leftBlock_sub_soloCard_footer_mainText_mobile">
+                                        Scavenging Guttleslug
+                                        <div class="sell_leftBlock_sub_soloCard_footer_sub_mainText_mobile">
+                                            Scavenging Guttleslug
+                                        </div>
+                                    </h3>
+                                    <div class="sell_leftBlock_sub_soloCard_sub_footerBlock_mobile">
+                                        <span class="sell_leftBlock_sub_soloCard_sub_footerBlock_text_mobile">₽ 150.20</span>
+                                        <img src="img/minus_circle_yellow.svg" class="minus_circle_mobile" alt="кружочек">
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sell_erorr_rightBlock_footer">
+                        <div class="sell_erorr_rightBlock_sub_footer">
+                            <span class="sell_erorr_rightBlock_sub_footer_whiteText">Зачислится на баланс:</span>
+                            <span class="sell_erorr_rightBlock_sub_footer_yellowText">₽ 45454</span>
+                        </div>
+                        <div class="sell_erorr_rightBlock_footer_customButton">
+                            <a href="#" class="sell_erorr_rightBlock_footer_customButton_text">
+                                выставить на продажу
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="sub_footer">
+            <div>
+                <h2 class="sub_footer_ST_text">SkinsTrade</h2>
+            </div>
+            <div class="contact">
+                <span class="contact_span">Связаться с нами:</span>
+                <div class="sub_contact">
+                    <img src="img/contact_1.svg" class="sub_contact_svg_1" alt="тг">    
+                    <img src="img/contact_2.svg" class="sub_contact_svg_2" alt="вк">
+                </div>
+            </div>
+            <div class="mobile_sub_footer_items_exchange">
+                <div class="mobile_sub_footer_items_exchange_1">
+                    <span class="sub_footer_items_exchange_first">Обмен</span>
+                    <span class="sub_footer_items_exchange">Купить</span>
+                    <span class="sub_footer_items_exchange">Продать</span>
+                    <span class="sub_footer_items_exchange">FAQ</span>
+                </div>
+                <div class="mobile_sub_footer_items_exchange_2">
+                    <span class="sub_footer_items_exchange_first">Контакты</span>
+                    <span class="sub_footer_items_exchange">Гарантии</span>
+                    <span class="sub_footer_items_exchange">Как это работает</span>
+                    <span class="sub_footer_items_exchange">Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
