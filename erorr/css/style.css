@@ -1,0 +1,25 @@
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+.erorr_numbersText {
+    background: linear-gradient(284.7deg, #FFFFFF 3.75%, rgba(255, 255, 255, 0) 112.42%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+@media (max-width: 639px) {
+    .mobile_sub_footer_items_exchange {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+}
