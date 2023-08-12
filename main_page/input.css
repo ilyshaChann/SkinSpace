@@ -1,0 +1,357 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .body {
+    @apply bg-bluishBlack font-['Montserrat'];
+  }
+  .dropdowm_menu {
+    @apply absolute z-50 w-[80%] h-full bg-granite rounded-tr-2xl rounded-br-2xl hidden /* Данная часть определяет, когда будет скрыто или открыто выпадающее меню -> block xl:hidden*/;
+  }
+  .dropdowm_menu_cross {
+    @apply w-[16px] h-[16px] ml-[35px] mt-[35px];
+  }
+  .dropdowm_menu_items {
+    @apply mt-[25px] ml-[35px];
+  }
+  .dropdowm_menu_sub_itemsWhite {
+    @apply text-[16px] font-bold uppercase text-white my-[12px];
+  }
+  .dropdowm_menu_sub_itemsLemony {
+    @apply text-[16px] font-bold uppercase text-lemony my-[12px];
+  }
+  .header {
+    @apply mx-[35px] xl:mx-[60px];
+  }
+  .nav {
+    @apply flex items-center justify-between pt-[30px] xl:pt-[20px];
+  }
+  .sub_nav {
+    @apply flex items-end;
+  }
+  .menu_items {
+    @apply hidden xl:block;
+  }
+  .sub_menu_items {
+    @apply text-[12px] uppercase text-[#a5a6a8] font-semibold mx-[30px];
+  }
+  .sub_nav_burger {
+    @apply mr-[4px] relative bottom-[5px];
+  }
+  .sub_nav_burger_svg {
+    @apply w-[22px] h-[14px] block xl:hidden;
+  }
+  .img_logo {
+    @apply w-[24px] h-[32px] xl:w-[41px] xl:h-[56px] mx-[4px];
+  }
+  .text_logo {
+    @apply text-[16px] xl:text-[30px] text-white font-bold ml-[4px];
+  }
+  .sub_ {
+    @apply text-[13px] text-[#a5a6a8] uppercase pl-[60px] font-semibold tracking-widest;
+  }
+  .language_balance_account {
+    @apply flex items-center;
+  }
+  .language {
+    @apply relative flex items-center justify-start xl:justify-center rounded-l-lg pl-[12px] xl:pl-[10px] w-[50px] xl:w-[90px] h-[35px] xl:h-[40px] bg-[#2a2c30] before:content-[''] before:absolute before:block before:w-[25%] xl:before:w-[30%] before:h-[35px] xl:before:h-[40px] before:-translate-x-[8%] xl:before:-translate-x-[2%] before:origin-bottom before:skew-x-[-20deg] xl:before:skew-x-[-30deg] before:bg-[#2a2c30] before:right-0 before:bottom-0;
+  }
+  .language_flag {
+    @apply w-[16px] h-[16px] xl:w-[24px] xl:h-[24px] mr-[3px] xl:mr-[5px];
+  }
+  .language_arrow {
+    @apply w-[8px] h-[5px] xl:w-[14px] xl:h-[9px] ml-[3px] xl:ml-[5px];
+  }
+  .balance {
+    @apply relative flex justify-center items-center rounded-r-lg pl-[8px] pr-[10px] xl:px-[10px] ml-[20px] xl:ml-[32px] w-[65px] xl:w-[140px] h-[35px] xl:h-[40px] bg-lemony xl:bg-[#2a2c30] before:content-[''] before:absolute before:block before:w-[20%] before:h-[35px] xl:before:h-[40px] before:translate-x-[-102%] xl:before:translate-x-[-92%] before:origin-bottom before:skew-x-[-20deg] xl:before:skew-x-[-30deg] before:bg-lemony xl:before:bg-[#2a2c30] before:left-0 before:bottom-0;
+  }
+  .sub_balance_desktop {
+    @apply hidden xl:flex items-center;
+  }
+  .sub_balance_mobile {
+    @apply flex items-center xl:hidden;
+  }
+  .sub_balance_mobile_steamSvg {
+    @apply w-[16px] h-[16px] mr-[2px];
+  }
+  .balance_money_mobile {
+    @apply text-blackGrey text-[8px] font-bold ml-[2px];
+  }
+  .balance_money {
+    @apply text-lemony text-[16px] font-semibold mr-[5px];
+  }
+  .balance_plus {
+    @apply w-[14px] h-[14px] ml-[5px];
+  }
+  .account {
+    @apply hidden xl:flex items-center ml-[35px];
+  }
+  .account_man {
+    @apply w-[40px] h-[40px] mr-[7px];
+  }
+  .account_arrow {
+    @apply w-[14px] h-[9px] ml-[7px];
+  }
+  .mini_dropdown {
+    @apply w-[230px] bg-blackGrey rounded-xl absolute right-0 mr-[60px] hidden;
+  }
+  .replenish_the_balance {
+    @apply bg-blackOlive px-[20px] py-[15px] text-[18px] text-white rounded-t-xl;
+  }
+  .withdraw_from_the_balance {
+    @apply px-[20px] py-[15px] text-[18px] text-white border-b-[1px] border-blackOlive;
+  }
+  .personal_area {
+    @apply px-[20px] py-[15px] text-[18px] text-white;
+  }
+  .exit {
+    @apply px-[20px] py-[15px] text-[18px] text-white;
+  }
+  .main_page {
+    @apply flex items-center justify-center flex-wrap mt-[50px] xl:mt-0;
+  }
+  .sell_skins_block {
+    @apply max-w-[570px] mx-[35px] xl:mr-[15px];
+  }
+  .sell_skins_text_main {
+    @apply text-white mx-auto w-[310px] xl:w-auto text-[33px] xl:text-[52px] font-semibold;
+  }
+  .sell_skins_sub_text {
+    @apply mt-[25px] font-medium max-w-[500px];
+  }
+  .sell_skins_sub_text_gray {
+    @apply text-[#a5a6a8] text-[10px] xl:text-[18px];
+  }
+  .sell_skins_sub_text_lemony {
+    @apply text-lemony text-[10px] xl:text-[18px];
+  }
+  .sell_skins_sub_text_lemony_white {
+    @apply text-white text-[10px] xl:text-[18px];
+  }
+  .sell_button {
+    @apply mt-[70px] mx-auto xl:ml-[45px];
+  }
+  .sell_button_a {
+    @apply text-[18px] py-[17px] px-[60px] rounded-tl-lg rounded-br-lg uppercase text-blackGrey font-extrabold bg-lemony relative before:content-[''] before:absolute before:block before:w-[20%] before:h-[56px] before:translate-x-[-100%] before:rounded-tl-lg before:rounded-tr-[0.2rem] before:origin-bottom before:skew-x-[-30deg] before:bg-lemony before:left-0 before:bottom-0 after:content-[''] after:absolute after:block after:w-[20%] after:h-[56px] after:translate-x-[25%] after:origin-bottom after:skew-x-[-30deg] after:bg-lemony after:rounded-br-lg after:right-0 after:top-0;
+  }
+  .wraithKing_block {
+    @apply pt-[20px] xl:pt-0 ml-[15px];
+  }
+  .custom_border {
+    @apply w-full h-[6px] bg-black;
+  }
+  .custom_border_circel {
+    @apply rounded-full w-[40px] h-[40px] bg-blueBlack flex justify-center items-center mx-auto relative bottom-[18px];
+  }
+  .custom_border_circe_arrow {
+    @apply w-[9px] xl:w-[14px] h-[5px] xl:h-[9px];
+  }
+  .bg_cs {
+    @apply bg-[url(img/bg_CS.png)] bg-top bg-no-repeat bg-cover;
+  }
+  .why_we {
+    @apply pt-[50px] xl:pt-[100px];
+  }
+  .why_we_text {
+    @apply text-[26px] w-[205px] xl:w-auto mx-auto xl:text-[59px] text-white font-medium text-center;
+  }
+  .why_we_options {
+    @apply flex items-center flex-wrap justify-center mt-[50px] mx-[35px] xl:mx-[200px];
+  }
+  .why_we_options_profitable {
+    @apply text-center w-full xl:w-auto py-[45px] xl:py-[77px] px-[30px] xl:px-[100px] rounded-2xl border-[#666666] border-[1px] mr-0 xl:mr-[12px];
+  }
+  .why_we_options_profitable_text_lemony {
+    @apply text-[20px] xl:text-[34px] text-lemony font-semibold;
+  }
+  .why_we_options_profitable_sub_text {
+    @apply text-[14px] xl:text-[22px] text-[#bfc0c2] font-medium block mt-[10px];
+  }
+  .mobile_card_cs {
+    @apply w-full h-full mt-[20px] block xl:hidden;
+  }
+  .card_cs {
+    @apply h-full w-full mt-[20px] xl:mt-0 hidden xl:block;
+  }
+  .why_we_options_profitable_guarantee {
+    @apply text-center py-[35px] xl:py-[60px] px-[55px] sm:px-0 mt-[20px] w-full xl:w-auto sm:mt-0 rounded-2xl border-[#666666] border-[1px] xl:ml-[12px];
+  }
+  .why_we_options_profitable_sub_text_guarantee {
+    @apply text-[14px] xl:text-[22px] text-[#bfc0c2] font-medium mt-[10px] block w-full xl:max-w-[425px];
+  }
+  .card_dota_mobile {
+    @apply h-full w-full mt-[20px] block xl:hidden;
+  }
+  .card_dota {
+    @apply h-full w-full mt-[20px] hidden xl:block;
+  }
+  .why_we_options_profitable_guarantee_2 {
+    @apply text-center py-[60px] w-full xl:w-auto xl:max-w-[380px] rounded-2xl border-[#666666] border-[1px] xl:ml-[12px] mt-[20px];
+  }
+  .why_we_options_profitable_fast {
+    @apply text-center py-[60px] w-full xl:w-[612px] rounded-2xl border-[#666666] border-[1px] xl:ml-[12px] mt-[20px];
+  }
+  .why_we_options_profitable_sub_text_fast {
+    @apply text-[14px] xl:text-[22px] text-[#bfc0c2] font-medium mt-[10px] max-w-[220px] xl:max-w-[380px] block mx-auto;
+  }
+  .last_deals {
+    @apply mt-[100px];
+  }
+  .last_deals_text {
+    @apply text-[59px] font-medium text-white text-center;
+  }
+  .card_product {
+    @apply flex items-center justify-center /*flex-wrap*/ pl-[40px] mx-[60px] mt-[70px];
+  }
+  .loading_product {
+    @apply mt-[10px] w-[225px] h-[145px] mr-[45px] text-center pt-[30px] relative before:content-[''] before:absolute before:block before:w-[15%] before:h-[145px] before:translate-x-[-100%] before:origin-bottom before:skew-x-[-10deg] before:bg-[#313134] before:left-0 before:bottom-0 after:content-[''] after:absolute after:block after:w-[15%] after:h-[145px] after:translate-x-[2%] after:origin-bottom after:skew-x-[-10deg] after:bg-[#313134] after:right-0 after:top-0;
+  }
+  .loader_product {
+    @apply w-[31px] h-[31px] mx-auto;
+  }
+  .price_product {
+    @apply text-[16px] font-medium text-lemony block pt-[15px];
+  }
+  .time_product {
+    @apply text-[14px] text-[#9a9a9b] font-medium;
+  }
+  .loading_product_bizon {
+    @apply mt-[10px] w-[225px] h-[145px] mr-[45px] text-center pt-[10px] relative before:content-[''] before:absolute before:block before:w-[15%] before:h-[145px] before:translate-x-[-100%] before:origin-bottom before:skew-x-[-10deg] before:bg-[#313134] before:left-0 before:bottom-0 after:content-[''] after:absolute after:block after:w-[15%] after:h-[145px] after:translate-x-[2%] after:origin-bottom after:skew-x-[-10deg] after:bg-[#313134] after:right-0 after:top-0;
+  }
+  .bizon {
+    @apply mx-auto;
+  }
+  .error_product {
+    @apply text-[18px] font-medium text-white block mt-[35px];
+  }
+  .total_sold {
+    @apply flex justify-end items-center pt-[25px] pb-[35px] xl:pb-[75px] pr-[60px];
+  }
+  .total_sold_textGray {
+    @apply text-[18px] text-[#a7a8a9] font-semibold;
+  }
+  .total_sold_textWhite {
+    @apply text-[18px] text-white font-semibold;
+  }
+  .statistic_bg {
+    @apply bg-[url(img/pa_bg.png)] bg-no-repeat bg-cover bg-top;
+  }
+  .statistic {
+    @apply flex items-center justify-center flex-wrap xl:pt-[30px];
+  }
+  .skins_sell {
+    @apply mx-[70px] mt-[40px] xl:mt-0;
+  }
+  .skins_sell_lemony {
+    @apply text-[40px] font-semibold text-lemony text-center;
+  }
+  .skins_sell_gray {
+    @apply text-[20px] text-[#a7a8a9] font-medium;
+  }
+  .reviews {
+    @apply mt-[60px] xl:mt-[100px];
+  }
+  .reviews_main_text {
+    @apply text-[26px] xl:text-[59px] text-white font-medium text-center;
+  }
+  .review_block {
+    @apply flex lg:justify-between justify-center items-center flex-wrap mt-[30px] xl:mt-[50px] px-[10px] sm:px-[35px] xl:px-[50px] mx-[35px] xl:mx-[70px] py-[40px] rounded-2xl border-[1px] border-[#666666];
+  }
+  .review_block_left {
+    @apply flex items-center;
+  }
+  .review_block_left_yandex {
+    @apply w-[54px] h-[54px];
+  }
+  .review_block_sub_left {
+    @apply ml-[12px];
+  }
+  .review_block_sub_left_quantity {
+    @apply text-[20px] text-white font-semibold block w-[172px];
+  }
+  .review_block_sub_left_lastMonth {
+    @apply text-[14px] text-[#929396] font-medium;
+  }
+  .review_block_center {
+    @apply flex items-center mx-[50px];
+  }
+  .review_block_center_grade {
+    @apply text-[30px] text-white font-semibold mr-[8px];
+  }
+  .review_block_center_star {
+    @apply w-[28px] h-[26px] mx-[4px];
+  }
+  .sell_button_review {
+    @apply static lg:relative right-[40px];
+  }
+  .sell_button_a_review {
+    @apply text-[14px] xl:text-[18px] py-[15px] xl:py-[17px] px-[20px] xl:px-[30px] rounded-tl-md rounded-br-md uppercase text-blackGrey font-extrabold bg-lemony relative before:content-[''] before:absolute before:block before:w-[15%] before:h-[48px] xl:before:h-[56px] before:translate-x-[-98%] before:rounded-tl-md before:rounded-tr-[0.375rem] before:origin-bottom before:skew-x-[-30deg] before:bg-lemony before:left-0 before:bottom-0 after:content-[''] after:absolute after:block after:h-[48px] xl:after:h-[56px] after:w-[15%] after:translate-x-[5%] after:origin-bottom after:skew-x-[-30deg] after:bg-lemony after:rounded-br-md after:right-0 after:top-0;
+  }
+  .FAQ {
+    @apply mt-[60px] xl:mt-[100px] mb-[50px];
+  }
+  .FAQ_main_text {
+    @apply text-[26px] xl:text-[59px] font-medium text-white text-center;
+  }
+  .FAQ_blocks {
+    @apply ml-[45px] xl:ml-[100px] mr-[35px] xl:mr-[70px];
+  }
+  .FAQ_block_lorem {
+    @apply flex items-center justify-between mt-[20px] py-[15px] px-[30px] relative before:content-[''] before:absolute before:block before:bg-[#2e3032] before:w-[2%] before:h-[55px] xl:before:h-[70px] before:translate-x-[-85%] before:origin-bottom before:skew-x-[-10deg] before:left-0 before:top-0;
+  }
+  .FAQ_block_lorem_same_text {
+    @apply text-[12px] xl:text-[20px] text-[#E9EAEA] font-semibold;
+  }
+  .custom_circel_faq {
+    @apply rounded-full w-[25px] xl:w-[40px] h-[25px] xl:h-[40px] bg-[#414347] flex justify-center items-center;
+  }
+  .FAQ_block_lorem_bottom_subtext {
+    @apply pl-[60px] pr-[50px] py-[20px] xl:py-[35px] -ml-[1.7%];
+  }
+  .FAQ_block_lorem_bottom_subtext_same_text {
+    @apply text-[12px] xl:text-[20px] text-[#969799] font-semibold;
+  }
+  .adapter_block {
+    @apply w-full h-[100px];
+  }
+  .footer {
+    @apply pt-0 xl:pt-[50px] pb-[80px];
+  }
+  .sub_footer {
+    @apply flex items-start justify-between flex-wrap mx-[50px] xl:mx-[70px];
+  }
+  .sub_footer_ST_text {
+    @apply text-[30px] text-white font-semibold;
+  }
+  .sub_footer_items_exchange_first {
+    @apply block text-[14px] xl:text-[18px] font-medium text-[#b0b0b1];
+  }
+  .sub_footer_items_exchange {
+    @apply block text-[14px] xl:text-[18px] font-medium text-[#b0b0b1] pt-[20px];
+  }
+  .contact {
+    @apply order-none md:order-last;
+  }
+  .contact_span {
+    @apply text-white text-[20px] font-semibold;
+  }
+  .sub_contact {
+    @apply flex justify-end mt-[10px] xl:ml-[12px];
+  }
+  .sub_contact_svg_1 {
+    @apply mr-[15px] w-[42px] h-[42px];
+  }
+  .sub_contact_svg_2 {
+    @apply w-[42px] h-[42px];
+  }
+  .mobile_sub_footer_items_exchange {
+    @apply flex justify-between mx-auto;
+  }
+  .mobile_sub_footer_items_exchange_1 {
+    @apply mx-[20px] md:mx-[50px];
+  }
+  .mobile_sub_footer_items_exchange_2 {
+    @apply mx-[20px] md:mx-[50px] order-first sm:order-none;
+  }
+}

@@ -1,0 +1,168 @@
+.custom_border {
+    background: linear-gradient(90deg, rgba(24,24,26,1) 0%, rgba(43,44,48,1) 50%, rgba(24,25,27,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.loading_product {
+    background: rgb(76,79,85);
+    background: radial-gradient(circle, rgba(76,79,85,1) 0%, rgba(76,79,85,1) 5%, rgba(49,49,52,1) 60%);
+}
+.loading_product_bizon {
+    background: rgb(76,79,85);
+    background: radial-gradient(circle, rgba(76,79,85,1) 0%, rgba(76,79,85,1) 5%, rgba(49,49,52,1) 60%);
+}
+.total_sold {
+    background: linear-gradient(180deg, #272321 0%, #242222 39.93%, #232528 71.68%, rgba(37, 40, 44, 0) 100%);
+}
+.review_block {
+    background: rgba(44, 47, 53, 0.6);
+}
+.skins_sell_lemony {
+    text-shadow: 3px 4px 7px rgba(255, 219, 24, 1);
+}
+.why_we_options_profitable {
+    background: rgba(44, 47, 53, 0.85);
+}
+.why_we_options_profitable_guarantee {
+    background: rgba(44, 47, 53, 0.85);
+}
+.why_we_options_profitable_guarantee_2 {
+    background: rgba(44, 47, 53, 0.85);
+}
+.why_we_options_profitable_fast {
+    background: rgba(44, 47, 53, 0.85);
+}
+.FAQ_block_lorem {
+    background: rgba(58, 60, 64, 0.6);
+}
+.FAQ_block_lorem_bottom_subtext {
+    background: rgba(58, 60, 64, 0.6);
+}
+.adapter_block {
+    background: rgb(33,36,39);
+    background: linear-gradient(180deg, rgba(33,36,39,0.8995973389355743) 18%, rgba(25,27,31,1) 60%);
+}
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+@media (max-width: 1909px) {
+    .card_product {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 969px) {
+    .card_product {
+        display: none;
+    }
+    .last_deals {
+        display: none;
+    }
+    .total_sold span {
+        display: none;
+    }
+}
+@media (max-width: 1408px) {
+    .sell_skins_text_main {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .sell_button {
+        text-align: center;
+    }
+    .sell_skins_sub_text {
+        text-align: center;
+        max-width: 1000px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 1747px) {
+    .why_we_options_profitable_guarantee {
+        margin-top: 20px;
+    }
+    .why_we_options_profitable_guarantee {
+        margin-right: 12px;
+    }
+}
+@media (max-width: 1308px) {
+    .card_cs {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1279px) {
+    .card_dota {
+        margin-left: 0px !important;
+    }
+    .why_we_options_profitable_guarantee {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 911px) {
+    .review_block_center {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .review_block_left {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .sell_button_review {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 713px) {
+    .sell_button_review {
+        margin-top: 0px;
+    }
+    .review_block_left {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 764px) {
+    .FAQ_block_lorem::before {
+        width: 3%;
+    }
+    .FAQ_block_lorem_bottom_subtext {
+        margin-left: -2.5%;
+    }
+}
+@media (max-width: 623px) {
+    .sell_button_review {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 513px) {
+    .FAQ_block_lorem::before {
+        height: 78px;
+        width: 6%;
+    }
+    .FAQ_block_lorem_bottom_subtext {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: -5%;
+    }
+    .FAQ_block_lorem_same {
+        max-width: 200px;
+    }
+}
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+}
+@media (max-width: 380px) {
+    .sell_skins_sub_text {
+        text-align: start;
+    }
+}
+@media (max-width: 639px) {
+    .mobile_sub_footer_items_exchange {
+        margin-top: 50px;
+    }
+}
