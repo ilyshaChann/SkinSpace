@@ -1,0 +1,666 @@
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+.transactions_main {
+    background: rgba(44, 47, 53, 0.85);
+}
+.card_bodyNegev {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.card_body_mainInfo_activityBlock_placeButton {
+    background-color: rgba(155, 69, 69, 0.5);  
+}
+.card_body_mainInfo_activityBlock_placeButton:hover {
+    background-color: rgba(155, 69, 69, 1);  
+}
+.card_body_sub_mainInfo_footer_link {
+    color: rgba(255, 255, 255, 0.5);
+}
+.card_body_sub_mainInfo_footer_link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.body_soloCard_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.popUp_card_product_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.buy_order_card_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.popUp_card_product_image_mobile {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.buy_order_confirm_card_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.popUp_statistics_sell::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -1px;
+    border-top: 20px solid black;
+    border-top-color: #54565b;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.popUp_statistics_sell::after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 0px;
+    border-top: 19px solid black;
+    border-top-color: #292c32;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+}
+.popUp_card_product::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -1px;
+    border-top: 20px solid black;
+    border-top-color: #54565b;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.popUp_card_product::after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 0px;
+    border-top: 19px solid black;
+    border-top-color: #292c32;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+}
+@media (max-width: 1895px) {
+    .card_body {
+        justify-content: start;
+    }
+    .card_body_mainInfo  {
+        margin-left: 44px;
+    }
+    .card_body_mainInfo_activityBlock_buttons {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1880px) {
+    .card_body {
+        justify-content: center;
+    }
+    .card_body_mainInfo_activityBlock {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1870px) {
+    .body_sub_card_productsThrdText {
+        margin-left: 39%;
+    }
+}
+
+@media (max-width: 1810px) {
+    .body_sub_card_productsThrdText {
+        margin-left: 38%;
+    }
+    .body_sub_card_productsLastText {
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 1744px) {
+    .card_bodyFooter {
+        column-gap: 32px;
+    }
+}
+
+@media (max-width: 1701px) {
+    .body_soloCard_dollars {
+        margin-left: 13%;
+        margin-right: 12%;
+    }
+    .body_soloCard_dollars_mobile {
+        margin-left: 13%;
+        margin-right: 12%;
+    }
+    .body_soloCard_customButton {
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .popUp_statistics_sell {
+        bottom: 55px;
+    }
+}
+
+@media (max-width: 1645px) {
+    .card_bodyFooter {
+        column-gap: 6px;
+    }
+    .card_body_mainInfo_activityBlock {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1610px) {
+    .body_soloCard_dollars {
+        margin-left: 15%;
+    }
+    .body_soloCard_dollars_mobile {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1555px) {
+    .body_soloCard_dollars {
+        margin-left: 16%;
+        margin-right: 0px;
+    }
+    .body_soloCard_dollars_mobile {
+        margin-left: 16%;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1546px) {
+    .card_body_mainInfoText {
+        margin-top: 25px;
+    }
+    .card_body_sub_mainInfo {
+        margin-top: 0px;
+    }
+    .card_body_mainInfo_activityBlock {
+        margin-top: 35px;
+    }
+    .card_body_sub_mainInfo_footer {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1514px) {
+    .card {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+@media (max-width: 1494px) {
+    .card_bodyFooter {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        row-gap: 6px;
+    }
+}
+
+@media (max-width: 1485px) {
+    .header_card_products_rightItems {
+        margin-top: 20px;
+    }
+    .body_soloCard_dollars {
+        margin-left: 18%;
+    }
+    .body_soloCard_dollars_mobile {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 1362px) {
+    .body_soloCard_profile {
+        margin-right: 18%;
+    }
+    .body_soloCard_dollars {
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .body_soloCard_dollars_mobile {
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1273px) {
+    .card_bodyFooter {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 1254px) {
+    .body_soloCard_scale {
+        margin-right: 18%;
+    }
+    .body_soloCard_profile {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: 8%;
+    }
+    .body_sub_card_products {
+        justify-content: space-between;
+    }
+    .body_sub_card_productsScndText {
+        margin-left: 0px;
+    }
+    .body_sub_card_productsThrdText {
+        margin-left: 0px;
+    }
+    .body_sub_card_productsLastText {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1058px) {
+    .card_bodyFooter {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 1023px) {
+    .card_body_mainInfo_activityBlock_buttons {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1016px) {
+    .header_card_products_leftItems_graph_text {
+        margin-left: 0px;
+    }
+    .header_card_products_leftItems_text {
+        margin-left: 0px;
+    }
+    .header_card_products_rightItems_allBlock {
+        margin-right: 15px;
+    }
+    .header_card_products_rightItems_filterBlock {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 959px) {
+    .buy_order_card_items {
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .buy_order_card_image {
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 946px) {
+    .header_card_products_leftItems_graph {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .buy_order_confirm {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 902px) {
+    .body_soloCard_scale {
+        margin-right: 0px;
+    }
+    .body_soloCard_scale {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 830px) {
+    .buy_order_card_items {
+        margin-right: 0px;
+    }
+    .buy_order_card_image {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 799px) {
+    .buy_order_confirm_card_items {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 762px) {
+    .header_card_products_leftItems_text {
+        margin-right: 24%;
+        margin-top: 10px;
+    }
+    .header_card_products_rightItems_allBlock {
+        margin-right: 10px;
+    }
+    .header_card_products_rightItems_filterBlock {
+        margin-left: 0px;
+    }
+    .card_body_sub_mainInfo {
+        margin-top: 10px;
+    }
+    .card_body_sub_mainInfo_footer {
+        margin-top: 20px;
+    }
+    .card_body_mainInfo_activityBlock {
+        margin-top: 20px;
+    }
+    .card_body_mainInfoText {
+        margin-top: 20px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 680px) {
+    .buy_order_confirm_card_image {
+        margin-right: 0px;
+    }
+    .buy_order_confirm_card_items {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 648px) {
+    .body_cards {
+        justify-content: space-between;
+    }
+    .body_soloCard_dollars {
+        margin-right: 30px;
+    }
+    .body_soloCard_dollars_mobile {
+        margin-right: 30px;
+    }
+    .body_soloCard_customButton {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .body_soloCard_profile {
+        margin-left: 30px;
+    }
+    .card_bodyFooter {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 821px) {
+    .card_body_sub_mainInfo_footerLink {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card_body_mainInfo {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .card_body_sub_mainInfo_footerLink {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 639px) {
+    .buy_order_card_items_mainText_mobile {
+        margin-left: 5px;
+    }
+    .buy_order_card_image {
+        margin-right: 5px;
+    }
+    .buy_order_card_items {
+        margin-top: 5px;
+    }
+    .buy_order_confirm_card_items {
+        margin-top: 5px;
+    }
+    .buy_order_confirm_card_image {
+        margin-right: 5px;
+    }
+    .buy_order_confirm_card_items_mainText_mobile {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 603px) {
+    .card_body_mainInfo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .body_cards {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .body_card_products {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .body_sub_card_products {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .card_products {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    .card {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+    .card_path {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .card_path_textFrst {
+        font-size: 8px;
+        margin-right: 3px;
+        line-height: 9px;
+    }
+    .card_path_textFrst_active {
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .card_path_text {
+        font-size: 8px;
+        margin-left: 3px;
+        margin-right: 3px;
+        line-height: 9px;
+    }
+    .card_path_textLast {
+        font-size: 8px;
+        margin-left: 3px;
+        line-height: 9px;
+    }
+    .right_arrow {
+        width: 12px;
+        height: 7px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .buy_order_confirm_card_items_mainText {
+        font-size: 14px;
+        text-align: center;
+        max-width: 360px;
+    }
+    .buy_order_confirm_body_text {
+        font-size: 14px;
+    }
+    .buy_order_footer {
+        margin-top: 20px;
+    }
+    .buy_order_sub_footer_textYellow {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 594px) {
+    .header_card_products_leftItems_text {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .body_soloCard_profile {
+        margin-left: 0px;
+    }
+    .body_soloCard_dollars {
+        margin-right: 5px;
+        line-height: 25px;
+    }
+    .body_soloCard_scale {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .triangle {
+        width: 20px;
+        height: 20px;
+    }
+    .body_soloCard_scaleColorful {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .body_cards {
+        padding-top: 10px;
+    }
+    .body_soloCard_dollars_mobile {
+        display: none;
+    }
+    .buy_order_card_itemRight {
+        margin-left: 5px;
+    }
+    .buy_order_card_itemLeft {
+        margin-right: 5px;
+    }
+    .buy_order_card_itemLeft_text {
+        font-size: 14px;
+    }
+    .buy_order_card_itemRight_textYellow {
+        font-size: 14px;
+    }
+    .buy_order_card_itemRight_textGray {
+        font-size: 14px;
+    }
+    .buy_order_card_items_mainText {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 501px) {
+    .body_soloCard_roubles {
+        display: none;
+    }
+    .body_soloCard_dollarsRouble_mobile {
+        display: none;
+    }
+    .body_soloCard_dollars_mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 479px) {
+    .card_body_sub_mainInfo_footerLink {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+    .body_soloCard_scaleGreen {
+        width: 20px;
+    }
+    .body_soloCard_scaleLightGreen {
+        width: 20px;
+    }
+    .body_soloCard_scaleLightOrange {
+        width: 40px;
+    }
+    .body_soloCard_scaleOrange {
+        width: 25px;
+    }
+    .body_soloCard_scaleRed {
+        width: 50px;
+    }
+    .card_bodyFooter {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .buy_order_confirm_card_items_mainText {
+        max-width: 260px;
+    }
+    .header_card_products_leftItems_textActive {
+        font-size: 18px;
+    }
+    .header_card_products_leftItems_text {
+        font-size: 18px;
+    }
+    .header_card_products_leftItems_graph_text {
+        font-size: 18px;
+    }
+    .header_card_products_rightItems_allBlock {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 6px;
+    }
+    .header_card_products_rightItems_allBlock_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .header_card_products_rightItems_sub_filterBlock_item {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .header_card_products_rightItems_sub_filterBlock_itemText {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .header_card_products_rightItems_sub_filterBlock_itemLast {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 5px;
+    }
+    .header_card_products_rightItems_allBlock {
+        margin-right: 10px;
+    }
+    .header_card_products_rightItems_allBlock_text {
+        font-size: 10px;
+    }
+    .header_card_products_rightItems {
+        margin-top: 25px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .buy_order_card_image_mobile {
+        justify-content: start;
+    }
+    .buy_order_card_items_sub_mainText_mobile {
+        max-width: 150px;
+    }
+    .buy_order_confirm_card_items_sub_mainText_mobile {
+        max-width: 140px;
+    }
+    .buy_order_sub_card {
+        justify-content: start;
+    }
+    .buy_order_confirm_card_items {
+        width: 100%;
+    }
+}
+
+@media (max-width: 432px) {
+    .header_card_products_rightItems_sub_filterBlock_item {
+        margin-left: 0px;
+    }
+}
+

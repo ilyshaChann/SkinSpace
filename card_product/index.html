@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+    <!-- Везжающая менюшка на мобилках -->
+    <div class="dropdowm_menu">
+        <img src="img/cross_dropdown.svg" class="dropdowm_menu_cross" alt="крестик">
+        <ul class="dropdowm_menu_items">
+            <li class="dropdowm_menu_sub_itemsWhite">Обмен</li>
+            <li class="dropdowm_menu_sub_itemsLemony">Купить</li>
+            <li class="dropdowm_menu_sub_itemsWhite">Продать</li>
+            <li class="dropdowm_menu_sub_itemsWhite">FAQ</li>
+        </ul>            
+    </div>
+    <!-- Везжающая менюшка на мобилках -->
+
+    <header class="header">
+        <nav class="nav">
+            <div class="sub_nav">
+                <div class="sub_nav_burger">
+                    <img src="img/nav_burger.svg" class="sub_nav_burger_svg" alt="бургер меню">                    
+                </div>
+                <img src="img/fire_logo.png" class="img_logo" alt="лого">
+                <h2 class="text_logo">SkinSpace</h2>
+            </div>
+            <div class="menu_items">
+                <span class="sub_menu_items">Обмен</span>
+                <div class="sub_menu_items_custom">
+                    <span class="sub_menu_items_customText">Купить</span>
+                </div>
+                <span class="sub_menu_items">Продать</span>
+                <span class="sub_menu_items">FAQ</span>
+            </div>
+            <div class="language_balance_account">
+                <div class="language">
+                    <img src="img/russia.svg" class="language_flag" alt="флажок России">
+                    <img src="img/language_arrow.svg" class="language_arrow" alt="стрелочка">
+                </div>
+                <div class="balance">
+                    <div class="sub_balance_desktop">
+                        <span class="balance_money">₽ 150.20</span>
+                    </div>                   
+                </div>
+                <div class="account">
+                    <img src="img/man.png" class="account_man" alt="Чел с шапки">
+                    <img src="img/account_arrow.svg" class="account_arrow" alt="стрелочка">    
+                </div>
+            </div>
+        </nav>
+
+        <!-- Выпадающая менюшка шапки -->
+        <div class="mini_dropdown">
+            <ul>
+                <li class="replenish_the_balance">
+                    Пополнить баланс
+                </li>
+                <li class="withdraw_from_the_balance">
+                    Вывести с баланса
+                </li>
+                <li class="personal_area">
+                    Личный кабинет
+                </li>
+                <li class="exit">
+                    Выйти
+                </li>
+            </ul>
+        </div>
+        <!-- Выпадающая менюшка шапки -->
+
+        <!-- Выпадающий выбор языков шапки -->
+        <div class="mini_dropdown_language">
+            <div class="mini_dropdown_languageRu">
+                <img src="img/russia.svg" class="mini_dropdown_language_miniRu" alt="ру флаг">
+                <h2 class="mini_dropdown_language_text">RU</h2>
+            </div>
+            <div class="mini_dropdown_languageEn">
+                <img src="img/english.svg" class="mini_dropdown_language_miniEn" alt="инглиш флаг">
+                <h2 class="mini_dropdown_language_text">EN</h2>
+            </div>
+        </div>
+        <!-- Выпадающий выбор языков шапки -->
+    </header>
+
+    <!-- Pop-up: Ордер на покупку -->
+    <div class="buy_order">
+        <div class="header_buy_order">
+            <h2 class="header_buy_order_mainText">Размещение ордера на покупку</h2>
+            <img src="img/popUp_cross.svg" class="popUp_cross" alt="крестик">
+        </div>
+        <div class="buy_order_card">
+            <div class="buy_order_card_image_mobile">
+                <div class="buy_order_card_image">
+                    <img src="img/negev_card.png" class="buy_order_card_img" alt="негев">
+                </div>
+                <div class="buy_order_card_items_mainText_mobile">
+                    StatTrak™ Negev | 
+                    <div class="buy_order_card_items_sub_mainText_mobile">
+                        dev_texture (Field-Tested)
+                    </div>
+                </div>
+            </div>
+            <div class="buy_order_card_items">
+                <h2 class="buy_order_card_items_mainText">
+                    StatTrak™ Negev | dev_texture (Field-Tested)
+                </h2>
+                <div class="buy_order_card_sub_items">
+                    <div class="buy_order_card_itemLeft">
+                        <span class="buy_order_card_itemLeft_text">Минимальная продажа:</span>
+                        <span class="buy_order_card_itemLeft_text">Максимальный ордер на покупку:</span>
+                    </div>
+                    <div class="buy_order_card_itemRight">
+                        <div class="buy_order_card_sub_itemRight">
+                            <span class="buy_order_card_itemRight_textYellow">$ 3030</span>
+                            <span class="buy_order_card_itemRight_textGray">(₽ 20)</span>
+                        </div>
+                        <div class="buy_order_card_sub_itemRight">
+                            <span class="buy_order_card_itemRight_textYellow">$ 30303</span>
+                            <span class="buy_order_card_itemRight_textGray">(₽ 20)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buy_order_inputBlocks">
+            <div class="buy_order_sub_inputBlocks">
+                <span class="buy_order_sub_inputBlocks_textWhite">Введите цену</span>
+                <span class="buy_order_sub_inputBlocks_textYellow">Показать в USD</span>
+            </div>
+            <input type="text" class="buy_order_sub_input" placeholder="₽">
+            <span class="buy_order_sub_inputBlocks_warningText">Цена должна быть равной цене последнего ордера в ленте или отличаться не менее, чем на 1 .</span>
+            <div class="buy_order_inputBlock">
+                <span class="buy_order_inputBlock_text">Введите количество</span>
+                <input type="text" class="buy_order_sub_input" placeholder="1">
+            </div>
+        </div>
+        <div class="buy_order_footer">
+            <div class="buy_order_sub_footer">
+                <span class="buy_order_sub_footer_textWhite">Общая сумма:</span>
+                <span class="buy_order_sub_footer_textYellow">$ 0</span>
+            </div>
+            <div class="buy_order_footer_customButton">
+                <a href="#" class="buy_order_footer_button">Разместить</a>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-up: Ордер на покупку -->
+
+    <!-- Pop-up: Ордер на покупку успешно размещён -->
+    <div class="order_successfully_placed">
+        <img src="img/success.svg" class="success_image" alt="успешно">
+        <h2 class="order_successfully_placed_mainText">Ваш ордер на покупку
+            успешно размещен!
+        </h2>
+        <img src="img/popUp_cross.svg" class="popUp_cross_success" alt="крестик">
+    </div>
+    <!-- Pop-up: Ордер на покупку успешно размещён -->
+
+    <!-- Фильтр: Все. Мобильная версия -->
+    <div class="filter_popularity_mobile">
+        <span class="filter_popularity_mobile_textWhite">Все</span>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Цена</span>
+            <img src="img/ladder_top.svg" class="ladder_top_mobile" alt="лесенка">
+        </div>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Цена</span>
+            <img src="img/ladder_bottom.svg" class="ladder_bottom_mobile" alt="лесенка">
+        </div>
+        <span class="filter_popularity_mobile_text">Сначала новые</span>
+        <span class="filter_popularity_mobile_text">Сначала старые</span>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Float</span>
+            <img src="img/ladder_top.svg" class="ladder_top_mobile" alt="лесенка">
+        </div>
+        <div class="filter_popularity_mobile_textBlock">
+            <span class="filter_popularity_mobile_text">Float</span>
+            <img src="img/ladder_bottom.svg" class="ladder_bottom_mobile" alt="лесенка">
+        </div>
+        <img src="img/cross_popUp.svg" class="cross_popUp_filter" alt="крестик">
+    </div>
+    <!-- Фильтр: Популярность. Мобильная версия -->
+
+    <!-- Pop-up: Статистика продаж. Мобильная версия -->
+    <div class="popUp_statistics_sell_mobile">
+        <h2 class="popUp_statistics_sell_mainText_mobile">Cтатистика продаж за последние 7 дней</h2>
+        <div class="popUp_statistics_sell_infoItem_mobile">
+            <span class="popUp_statistics_sell_infoItem_textGray">Cкорость доставки:</span>
+            <span class="popUp_statistics_sell_infoItem_textYellow">100%</span>
+        </div>
+        <div class="popUp_statistics_sell_infoItem_mobile">
+            <span class="popUp_statistics_sell_infoItem_textGray">Время доставки:</span>
+            <span class="popUp_statistics_sell_infoItem_textYellow">5 минут</span>
+        </div>
+        <img src="img/popUp_cross.svg" class="popUp_statistics_sell_mobile_cross" alt="керстик">
+    </div>
+    <!-- Pop-up: Статистика продаж. Мобильная версия -->
+
+    <!-- Pop-up: Карточка товара со скроллом. Мобильная версия -->
+    <div class="popUp_card_product_mobile">
+        <div class="popUp_sub_card_product_mobile">
+            <div class="popUp_card_product_image_mobile">
+                <img src="img/negev.png" class="popUp_card_product_image_negev" alt="негев">
+                <img src="img/popUp_cross.svg" class="popUp_card_product_image_mobile_cross" alt="крестик">
+            </div>
+            <div class="popUp_card_product_priceBlock">
+                <span class="popUp_card_product_priceBlock_textGray">Price:</span>
+                <span class="popUp_card_product_priceBlock_textYellow">$ 0.52</span>
+            </div>
+            <h2 class="popUp_card_product_mainText">
+                StatTrak™ Negev | dev_texture (Field-Tested)
+            </h2>
+            <div class="popUp_card_product_items">
+                <div class="popUp_card_product_itemsLeft">
+                    <span class="popUp_card_product_itemsLeft_text">Lorem:</span>
+                    <span class="popUp_card_product_itemsLeft_text">Lorem:</span>
+                    <span class="popUp_card_product_itemsLeft_text">Float:</span>
+                </div>
+                <div class="popUp_card_product_itemsRight">
+                    <span class="popUp_card_product_itemsRight_text">000</span>
+                    <span class="popUp_card_product_itemsRight_text">000</span>
+                    <span class="popUp_card_product_itemsRight_text">0.101010101010011010</span>
+                </div>
+            </div>
+            <div class="popUp_card_product_items_scaleColorful">
+                <div class="popUp_card_product_items_scale_scaleGreen"></div>
+                <div class="popUp_card_product_items_scaleLightGreen"></div>
+                <div class="popUp_card_product_items_scaleLightOrange">
+                    <img src="img/triangle.svg" class="triangle_popUp" alt="треугольник">
+                </div>
+                <div class="popUp_card_product_items_scaleOrange"></div>
+                <div class="popUp_card_product_items_scaleRed"></div>
+            </div>
+            <div class="popUp_card_product_profile">
+                <div class="popUp_card_product_profileHeader">
+                    <div class="popUp_card_product_sub_profileHeader">
+                        <img src="img/obivan_kenobi.png" class="popUp_card_product_sub_profileHeader_image_mobile" alt="Челик">
+                        <span class="popUp_card_product_sub_profileHeader_mainText_mobile">Вася Пупкин</span>
+                    </div>
+                    <span class="popUp_card_product_sub_profileHeader_subText">7 дней</span>
+                </div>
+                <div class="popUp_card_product_profile_items">
+                    <div class="popUp_card_product_profile_itemLeft">
+                        <span class="popUp_card_product_profile_itemLeft_text">Скорость доставки:</span>
+                        <span class="popUp_card_product_profile_itemLeft_text">Время доставки:</span>
+                        <span class="popUp_card_product_profile_itemLeft_text">Недоставлено:</span>
+                    </div>
+                    <div class="popUp_card_product_profile_itemRight">
+                        <span class="popUp_card_product_profile_itemRight_text">100%</span>
+                        <span class="popUp_card_product_profile_itemRight_text">5 мин</span>
+                        <span class="popUp_card_product_profile_itemRight_text">-</span>
+                    </div>
+                </div>
+            </div>
+            <div class="popUp_card_product_description">
+                <h2 class="popUp_card_product_description_mainText">Описание</h2>
+                <div class="popUp_card_product_description_subText">
+                    <span class="popUp_card_product_description_text">Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Est, quos optio cumque molestiae, 
+                        doloremque similique ut illum vero nulla error aperiam saepe. 
+                        Ratione repudiandae temporibus obcaecati architecto beatae eos veniam. Lorem 
+                        ipsum dolor sit amet consectetur adipisicing elit. 
+                        Deserunt, porro itaque. Assumenda, provident ipsa? 
+                        Tempore quam error veniam. Necessitatibus aut alias consectetur cupiditate molestiae, 
+                        culpa architecto ullam cumque earum rem.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-up: Карточка товара со скроллом. Мобильная версия -->
+
+    <!-- Pop-up: Подтверждения ордера на покупку -->
+    <div class="buy_order_confirm">
+        <div class="header_buy_order">
+            <h2 class="header_buy_order_mainText">Подтвердить покупку</h2>
+            <img src="img/popUp_cross.svg" class="popUp_cross" alt="крестик">
+        </div>
+        <div class="buy_order_card">
+            <div class="buy_order_sub_card">
+                <div class="buy_order_confirm_card_image">
+                    <img src="img/negev_card.png" class="buy_order_card_img" alt="негев">
+                </div>
+                <div class="buy_order_confirm_card_items_mainText_mobile">
+                    StatTrak™ Negev | 
+                    <div class="buy_order_confirm_card_items_sub_mainText_mobile">
+                        dev_texture (Field-Tested)
+                    </div>
+                </div>
+            </div>
+            <div class="buy_order_confirm_card_items">
+                <h2 class="buy_order_confirm_card_items_mainText">
+                    StatTrak™ Negev | dev_texture (Field-Tested)
+                </h2>
+                <div class="buy_order_confirm_card_sub_items">
+                    <div class="buy_order_card_itemLeft">
+                        <span class="buy_order_card_itemLeft_text">Продавец:</span>
+                        <span class="buy_order_card_itemLeft_text">Стоимость предмета:</span>
+                    </div>
+                    <div class="buy_order_card_itemRight">
+                        <div class="buy_order_card_sub_itemRight">
+                            <span class="buy_order_card_itemRight_textYellow">Вася Пупкин</span>
+                        </div>
+                        <div class="buy_order_card_sub_itemRight">
+                            <span class="buy_order_confirm_card_itemRight_textYellow">$ 20</span>
+                            <span class="buy_order_confirm_card_itemRight_textYellow_mobile">$ 5050</span>
+                            <span class="buy_order_confirm_card_itemRight_textGray">(₽ 1200)</span>
+                            <span class="buy_order_confirm_card_itemRight_textGray_mobile">(₽ 20)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buy_order_confirm_body_mainText">
+            <span class="buy_order_confirm_body_text">
+                После оплаты необходимо отправить торговое предложение в течении 5 минут! 
+                Продавец обязан отправить вам товар в течении 12 часов.
+            </span>
+        </div>
+        <div class="buy_order_footer">
+            <div class="buy_order_sub_footer">
+                <span class="buy_order_sub_footer_textWhite">Сумма для оплаты:</span>
+                <span class="buy_order_sub_footer_textYellow">$ 20</span>
+            </div>
+            <div class="buy_order_confirm_footer_customButton">
+                <a href="#" class="buy_order_footer_button">оплатить</a>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-up: Подтверждения ордера на покупку -->
+
+    <main>
+        <section>
+            <div class="card_path">
+                <span class="card_path_textFrst card_path_textFrst_active">Купить скины</span>
+                <img src="img/right_arrow.svg" class="right_arrow" alt="стрелочка">
+                <span class="card_path_text">CS:GO</span>
+                <img src="img/right_arrow.svg" class="right_arrow" alt="стрелочка">
+                <span class="card_path_textLast">StatTrak™ Negev | dev_texture (Field-Tested)</span>
+            </div>
+            <div class="card">
+                <div class="card_body">
+                    <div class="card_bodyNegev">
+                        <img src="img/negev.png" class="negev" alt="Негев">
+                        <img src="img/star.svg" class="star_mobile" alt="звезда">
+                    </div>
+                    <div class="card_body_mainInfo">
+                        <h2 class="card_body_mainInfoText">StatTrak™ Negev | dev_texture (Field-Tested)</h2>
+                        <div class="card_body_sub_mainInfo">
+                            <div class="card_body_sub_mainInfo_leftText">
+                                <span class="card_body_sub_mainInfo_leftTextBasic">Quality:</span>
+                                <span class="card_body_sub_mainInfo_leftTextBasic">Category:</span>
+                                <span class="card_body_sub_mainInfo_leftTextBasic">Type:</span>
+                            </div>
+                            <div class="card_body_sub_mainInfo_rightText">
+                                <span class="card_body_sub_mainInfo_rightTextYellow">Restricted</span>
+                                <span class="card_body_sub_mainInfo_rightTextYellow">StatTrak™</span>
+                                <span class="card_body_sub_mainInfo_rightTextYellow">Machineguns</span>
+                            </div>
+                        </div>
+                        <div class="card_body_sub_mainInfo_footer">
+                            <span class="card_body_sub_mainInfo_footer_priceText">Price:</span>
+                            <h3 class="card_body_sub_mainInfo_footer_dollarText">$ 0.52</h3>
+                            <span class="card_body_sub_mainInfo_footer_roubleText">(₽ 20)</span>
+                            <div class="card_body_sub_mainInfo_footerLink">
+                                <a href="#" class="card_body_sub_mainInfo_footer_link">Перейти на Steam</a>
+                                <img src="img/right_arrow.svg" class="right_arrowCard" alt="стрелочка">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_body_mainInfo_activityBlock">
+                        <div class="card_body_mainInfo_activityBlock_favorite">
+                            <h3 class="card_body_mainInfo_activityBlock_mainText">Добавить в избранное</h3>
+                            <img src="img/star.svg" class="star" alt="звезда">
+                        </div>
+                        <div class="card_body_mainInfo_activityBlock_buttons">
+                            <div class="card_body_mainInfo_activityBlock_sellButton">
+                                <a href="#" class="card_body_mainInfo_activityBlock_sellButton_link">продать</a>
+                            </div>
+                            <div class="card_body_mainInfo_activityBlock_placeButton">
+                                <a href="#" class="card_body_mainInfo_activityBlock_placeButton_link">разместить ордер</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_bodyFooter">
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Factory New $ 8.14</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Minimal Wear $ 7.33</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Field-Tested $ 3</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Factory New $ 8.14</span>
+                    </div>
+                    <div class="card_bodyFooter_itemActive">
+                        <span class="card_bodyFooter_item_textActive">Minimal Wear $ 7.33</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Factory New $ 8.14</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card_products">
+                <div class="header_card_products">
+                    <div class="header_card_products_leftItems">
+                        <span class="header_card_products_leftItems_textActive">Продажа (1000+)</span>
+                        <span class="header_card_products_leftItems_text">Ордера на покупку (1000+)</span>
+                        <div class="header_card_products_leftItems_graph">
+                            <span class="header_card_products_leftItems_graph_text">График цены</span>
+                            <img src="img/graph.svg" class="graph" alt="график">
+                        </div>
+                    </div>
+                    <div class="header_card_products_rightItems">
+                        <div class="header_card_products_rightItems_allBlock">
+                            <span class="header_card_products_rightItems_allBlock_text">Все</span>
+                            <img src="img/arrow_allBlock.svg" class="arrow_allBlock" alt="стрелочка">
+                        </div>
+
+                        <!-- Фильтр карточек: Все-->
+                        <div class="filter_popularity">
+                            <span class="filter_popularity_textWhite">Все</span>
+                            <div class="filter_popularity_textBlock">
+                                <span class="filter_popularity_text">Цена</span>
+                                <img src="img/ladder_top.svg" class="ladder_top" alt="лесенка">
+                            </div>
+                            <div class="filter_popularity_textBlock">
+                                <span class="filter_popularity_text">Цена</span>
+                                <img src="img/ladder_bottom.svg" class="ladder_bottom" alt="лесенка">
+                            </div>
+                            <span class="filter_popularity_text">Сначала новые</span>
+                            <span class="filter_popularity_text">Сначала старые</span>
+                            <div class="filter_popularity_textBlock">
+                                <span class="filter_popularity_text">Float</span>
+                                <img src="img/ladder_top.svg" class="ladder_top" alt="лесенка">
+                            </div>
+                            <div class="filter_popularity_textBlock">
+                                <span class="filter_popularity_text">Float</span>
+                                <img src="img/ladder_bottom.svg" class="ladder_bottom" alt="лесенка">
+                            </div>
+                        </div>
+                        <!-- Фильтр карточек: Все-->
+
+                        <div class="header_card_products_rightItems_filterBlock">
+                            <span class="header_card_products_rightItems_filterBlock_textRouble">₽</span>
+                            <div class="header_card_products_rightItems_sub_filterBlock">
+                                <div class="header_card_products_rightItems_sub_filterBlock_item">
+                                    <span class="header_card_products_rightItems_sub_filterBlock_itemText">Min</span>
+                                </div>
+                                <hr class="header_card_products_rightItems_sub_filterBlock_line">
+                                <div class="header_card_products_rightItems_sub_filterBlock_itemLast">
+                                    <span class="header_card_products_rightItems_sub_filterBlock_itemText">Max</span>
+                                </div>
+                                <hr class="header_card_products_rightItems_sub_filterBlock_addLine">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body_card_products">
+                    <div class="body_sub_card_products">
+                        <span class="body_sub_card_productsFrstText">item</span>
+                        <span class="body_sub_card_productsScndText">float</span>
+                        <span class="body_sub_card_productsThrdText">seller</span>
+                        <span class="body_sub_card_productsLastText">price</span>
+                    </div>
+                    <div class="body_sub_card_products_mobile">
+                        <div class="body_sub_card_sub_products_mobile">
+                            <span class="body_sub_card_productsFrstText">item</span>
+                            <span class="body_sub_card_productsScndText">float</span>
+                        </div>
+                        <div class="body_sub_card_sub_products_mobile">
+                            <span class="body_sub_card_productsThrdText">seller</span>
+                            <span class="body_sub_card_productsLastText">price</span>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                            
+                            <!-- Pop-up: Статистика продаж -->
+                            <div class="popUp_statistics_sell">
+                                <h2 class="popUp_statistics_sell_mainText">Cтатистика продаж за последние 7 дней</h2>
+                                <div class="popUp_statistics_sell_infoItem">
+                                    <span class="popUp_statistics_sell_infoItem_textGray">Cкорость доставки:</span>
+                                    <span class="popUp_statistics_sell_infoItem_textYellow">100%</span>
+                                </div>
+                                <div class="popUp_statistics_sell_infoItem">
+                                    <span class="popUp_statistics_sell_infoItem_textGray">Время доставки:</span>
+                                    <span class="popUp_statistics_sell_infoItem_textYellow">5 минут</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Pop-up: Статистика продаж -->
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+
+                            <!-- Pop-up: Карточка товара со скроллом -->
+                            <div class="popUp_card_product">
+                                <div class="popUp_sub_card_product">
+                                    <div class="popUp_card_product_image">
+                                        <img src="img/negev.png" class="popUp_card_product_image_negev" alt="негев">
+                                    </div>
+                                    <div class="popUp_card_product_priceBlock">
+                                        <span class="popUp_card_product_priceBlock_textGray">Price:</span>
+                                        <span class="popUp_card_product_priceBlock_textYellow">$ 0.52</span>
+                                    </div>
+                                    <h2 class="popUp_card_product_mainText">
+                                        StatTrak™ Negev | dev_texture (Field-Tested)
+                                    </h2>
+                                    <div class="popUp_card_product_items">
+                                        <div class="popUp_card_product_itemsLeft">
+                                            <span class="popUp_card_product_itemsLeft_text">Lorem:</span>
+                                            <span class="popUp_card_product_itemsLeft_text">Lorem:</span>
+                                            <span class="popUp_card_product_itemsLeft_text">Float:</span>
+                                        </div>
+                                        <div class="popUp_card_product_itemsRight">
+                                            <span class="popUp_card_product_itemsRight_text">000</span>
+                                            <span class="popUp_card_product_itemsRight_text">000</span>
+                                            <span class="popUp_card_product_itemsRight_text">0.101010101010011010</span>
+                                        </div>
+                                    </div>
+                                    <div class="popUp_card_product_items_scaleColorful">
+                                        <div class="popUp_card_product_items_scale_scaleGreen"></div>
+                                        <div class="popUp_card_product_items_scaleLightGreen"></div>
+                                        <div class="popUp_card_product_items_scaleLightOrange">
+                                            <img src="img/triangle.svg" class="triangle_popUp" alt="треугольник">
+                                        </div>
+                                        <div class="popUp_card_product_items_scaleOrange"></div>
+                                        <div class="popUp_card_product_items_scaleRed"></div>
+                                    </div>
+                                    <div class="popUp_card_product_profile">
+                                        <div class="popUp_card_product_profileHeader">
+                                            <div class="popUp_card_product_sub_profileHeader">
+                                                <img src="img/obivan_kenobi.png" class="popUp_card_product_sub_profileHeader_image" alt="Челик">
+                                                <span class="popUp_card_product_sub_profileHeader_mainText">Вася Пупкин</span>
+                                            </div>
+                                            <span class="popUp_card_product_sub_profileHeader_subText">7 дней</span>
+                                        </div>
+                                        <div class="popUp_card_product_profile_items">
+                                            <div class="popUp_card_product_profile_itemLeft">
+                                                <span class="popUp_card_product_profile_itemLeft_text">Скорость доставки:</span>
+                                                <span class="popUp_card_product_profile_itemLeft_text">Время доставки:</span>
+                                                <span class="popUp_card_product_profile_itemLeft_text">Недоставлено:</span>
+                                            </div>
+                                            <div class="popUp_card_product_profile_itemRight">
+                                                <span class="popUp_card_product_profile_itemRight_text">100%</span>
+                                                <span class="popUp_card_product_profile_itemRight_text">5 мин</span>
+                                                <span class="popUp_card_product_profile_itemRight_text">-</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="popUp_card_product_description">
+                                        <h2 class="popUp_card_product_description_mainText">Описание</h2>
+                                        <div class="popUp_card_product_description_subText">
+                                            <span class="popUp_card_product_description_text">Lorem ipsum dolor sit amet consectetur, 
+                                                adipisicing elit. Est, quos optio cumque molestiae, 
+                                                doloremque similique ut illum vero nulla error aperiam saepe. 
+                                                Ratione repudiandae temporibus obcaecati architecto beatae eos veniam. Lorem 
+                                                ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Deserunt, porro itaque. Assumenda, provident ipsa? 
+                                                Tempore quam error veniam. Necessitatibus aut alias consectetur cupiditate molestiae, 
+                                                culpa architecto ullam cumque earum rem.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pop-up: Карточка товара со скроллом -->
+
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_image">
+                            <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                        </div>
+                        <div class="body_soloCard_scale">
+                            <span class="body_soloCard_scaleText">
+                                0.101010
+                            </span>
+                            <div class="body_soloCard_scaleColorful">
+                                <div class="body_soloCard_scaleGreen"></div>
+                                <div class="body_soloCard_scaleLightGreen"></div>
+                                <div class="body_soloCard_scaleLightOrange">
+                                    <img src="img/triangle.svg" class="triangle" alt="треугольник">
+                                </div>
+                                <div class="body_soloCard_scaleOrange"></div>
+                                <div class="body_soloCard_scaleRed"></div>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <h3 class="body_soloCard_dollars_mobile">$ 0.52</h3>
+                        <div class="body_soloCard_dollarsRouble_mobile">
+                            <h3 class="body_soloCard_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">купить</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="transactions_pagination">
+                    <img src="img/pagintation_arrow_gray.svg" class="pagintaion_arrow_gray" alt="стрелочка влево">
+                    <div class="transactions_pagination_customBlock">
+                        <span class="transactions_pagination_customText">1</span>
+                    </div>
+                    <span class="transactions_pagination_text">2</span>
+                    <span class="transactions_pagination_text">3</span>
+                    <span class="transactions_pagination_text">4</span>
+                    <span class="transactions_pagination_text">5</span>
+                    <span class="transactions_pagination_text">6</span>
+                    <span class="transactions_pagination_text">...</span>
+                    <span class="transactions_pagination_text">100</span>
+                    <img src="img/pagination_arrow_white.svg" class="pagination_arrow_white" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="sub_footer">
+            <div>
+                <h2 class="sub_footer_ST_text">SkinsTrade</h2>
+            </div>
+            <div class="contact">
+                <span class="contact_span">Связаться с нами:</span>
+                <div class="sub_contact">
+                    <img src="img/contact_1.svg" class="sub_contact_svg_1" alt="тг">    
+                    <img src="img/contact_2.svg" class="sub_contact_svg_2" alt="вк">
+                </div>
+            </div>
+            <div class="mobile_sub_footer_items_exchange">
+                <div class="mobile_sub_footer_items_exchange_1">
+                    <span class="sub_footer_items_exchange_first">Обмен</span>
+                    <span class="sub_footer_items_exchange">Купить</span>
+                    <span class="sub_footer_items_exchange">Продать</span>
+                    <span class="sub_footer_items_exchange">FAQ</span>
+                </div>
+                <div class="mobile_sub_footer_items_exchange_2">
+                    <span class="sub_footer_items_exchange_first">Контакты</span>
+                    <span class="sub_footer_items_exchange">Гарантии</span>
+                    <span class="sub_footer_items_exchange">Как это работает</span>
+                    <span class="sub_footer_items_exchange">Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
